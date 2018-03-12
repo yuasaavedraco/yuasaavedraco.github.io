@@ -2,8 +2,6 @@
 title: <p><center>**SOBRE MÍ**</center></p>
 ---
 
-A continuación, expongo de manera resumida lo que es mi vida académica, deportiva y personal.
-
 Mi nombre es **Yuberth Anderson Saavedra Coneo**, soy oriundo del municipio de Caucasia y actualmente vivo en la ciudad de Medellín. Realizé el bachillerato en distintas instituciones educativas y regiones del país; debido a que, el cambio de domicilio por parte de mi padre siempre fue necesario por cuestiones laborales y sumado a eso, la separación de mis padres cuando yo tenía cinco años también influyó. Me gradué orgullosamente en la **Institución Educativa Liceo Caucasia**, reconocida como una de las mejores instituciones educativas públicas del departamento de Antioquia por su alto índice de estudiantes admitidos favorecidos con el programa **Ser Pilo Paga;** similarmente, la considerable cifra de admitidos a la **Universidad de Antioquia** y a la **Universidad Nacional de Colombia sede Medellín**.
 
 ```{r fig.asp=0.60, echo=FALSE, fig.align='center'}
