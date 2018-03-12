@@ -4,6 +4,23 @@ navbar:
   title: "Yuberth Saavedra"
   left:
     - text: "Home"
+      icon: fa-home
       href: index.html
-    - text: "About"
+    - text: "Sobre Mí"
+      icon: fa-child
       href: about.html
+    - text: "Trabajos"
+      icon: fa-folder
+      href: jobs.html
+  right:
+    - icon: fa-facebook
+      href: https://www.facebook.com/yuasavedraco
+    - icon: fa-github
+      href: https://github.com/yuasaavedraco
+    - icon: fa-instagram
+      href: https://www.instagram.com/yuberth_saavedra_r10/
+    
+output:
+  html_document:
+    theme: flatly
+    highlight: monochrome
