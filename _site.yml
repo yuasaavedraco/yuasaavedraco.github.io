@@ -1,7 +1,7 @@
-name: "Yuberth Saavedra"
+name: "Yuberth A. Saavedra"
 output_dir: "."
 navbar:
-  title: "Yuberth Saavedra"
+  title: "Yuberth A. Saavedra"
   left:
     - text: "Home"
       icon: fa-home
