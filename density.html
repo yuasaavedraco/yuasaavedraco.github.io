@@ -208,6 +208,13 @@ $(document).ready(function () {
     Trabajos
   </a>
 </li>
+<li>
+  <a href="density.html">
+    <span class="fa fa-line-chart"></span>
+     
+    Densidades
+  </a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
@@ -246,12 +253,12 @@ $(document).ready(function () {
 </div>
 
 
-<p>En esta sección, se muestra algunas densidades creadas en R con su respectivo código.</p>
+<p>En esta sección, exhibo algunas densidades creadas en R y Rstudio con el objetivo de mostrar lo potente, útil y eficiente que son estos programas como lenguaje de programación orientados al cálculo estadístico y a la generación de gráficas.</p>
 <br>
 <hr>
 <p>
 <center>
-<strong>Un simple diagrama de dispersión</strong>
+<strong>Diagrama de Dispersión</strong>
 </center>
 </p>
 <hr>
@@ -263,67 +270,10 @@ $(document).ready(function () {
 <hr>
 <p>
 <center>
-<strong>Trazando tres variables</strong>
+<strong>Histograma</strong>
 </center>
 </p>
 <hr>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">par</span>(<span class="dt">mfrow=</span><span class="kw">c</span>(<span class="dv">2</span>, <span class="dv">2</span>))
-z &lt;-<span class="st"> </span><span class="dv">2</span> <span class="op">*</span><span class="st"> </span>volcano        <span class="co"># Exaggerate the relief</span>
-x &lt;-<span class="st"> </span><span class="dv">10</span> <span class="op">*</span><span class="st"> </span>(<span class="dv">1</span><span class="op">:</span><span class="kw">nrow</span>(z))   <span class="co"># 10 meter spacing (S to N)</span>
-y &lt;-<span class="st"> </span><span class="dv">10</span> <span class="op">*</span><span class="st"> </span>(<span class="dv">1</span><span class="op">:</span><span class="kw">ncol</span>(z))   <span class="co"># 10 meter spacing (E to W)</span>
-<span class="co"># Don&#39;t draw the grid lines :  border = NA</span>
-<span class="kw">par</span>(<span class="dt">mar=</span><span class="kw">rep</span>(<span class="dv">0</span>, <span class="dv">4</span>))
-<span class="kw">persp</span>(x, y, z, <span class="dt">theta =</span> <span class="dv">135</span>, <span class="dt">phi =</span> <span class="dv">30</span>, <span class="dt">col =</span> <span class="st">&quot;light grey&quot;</span>, <span class="dt">scale =</span> <span class="ot">FALSE</span>,
-      <span class="dt">ltheta =</span> <span class="op">-</span><span class="dv">120</span>, <span class="dt">shade =</span> <span class="fl">0.75</span>, <span class="dt">border =</span> <span class="ot">NA</span>, <span class="dt">box =</span> <span class="ot">FALSE</span>)
-<span class="kw">mtext</span>(<span class="st">&quot;persp()&quot;</span>, <span class="dt">side=</span><span class="dv">3</span>, <span class="dt">line=</span><span class="op">-</span><span class="dv">2</span>)
-<span class="kw">par</span>(<span class="dt">mar=</span><span class="kw">c</span>(<span class="dv">3</span>, <span class="dv">3</span>, <span class="dv">2</span>, <span class="fl">0.5</span>))
-<span class="co"># Note that  example(trees)  shows more sensible plots!</span>
-N &lt;-<span class="st"> </span><span class="kw">nrow</span>(trees)
-<span class="kw">attach</span>(trees)
-<span class="co"># Girth is diameter in inches</span>
-<span class="kw">symbols</span>(Height, Volume, <span class="dt">circles=</span>Girth<span class="op">/</span><span class="dv">24</span>, <span class="dt">inches=</span><span class="ot">FALSE</span>,
-        <span class="dt">main=</span><span class="st">&quot;&quot;</span>, <span class="dt">xlab=</span><span class="st">&quot;&quot;</span>, <span class="dt">ylab=</span><span class="st">&quot;&quot;</span>, <span class="dt">bg=</span><span class="kw">grey</span>(Girth<span class="op">/</span><span class="kw">max</span>(Girth)))
-<span class="kw">mtext</span>(<span class="st">&quot;symbols()&quot;</span>, <span class="dt">side=</span><span class="dv">3</span>, <span class="dt">line=</span><span class="fl">0.5</span>)
-<span class="kw">par</span>(<span class="dt">mar=</span><span class="kw">rep</span>(<span class="fl">0.5</span>, <span class="dv">4</span>))
-<span class="kw">contour</span>(x, y, z, <span class="dt">asp=</span><span class="dv">1</span>, <span class="dt">labcex=</span><span class="fl">0.35</span>, <span class="dt">axes=</span><span class="ot">FALSE</span>)
-<span class="kw">rect</span>(<span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">870</span>, <span class="dv">620</span>)
-<span class="kw">mtext</span>(<span class="st">&quot;contour()&quot;</span>, <span class="dt">side=</span><span class="dv">3</span>, <span class="dt">line=</span><span class="op">-</span><span class="fl">1.5</span>)
-<span class="kw">image</span>(x, y, z, <span class="dt">asp=</span><span class="dv">1</span>, <span class="dt">col=</span><span class="kw">grey</span>(<span class="fl">0.5</span> <span class="op">+</span><span class="st"> </span><span class="dv">1</span><span class="op">:</span><span class="dv">12</span><span class="op">/</span><span class="dv">24</span>), <span class="dt">xlab=</span><span class="st">&quot;&quot;</span>, <span class="dt">ylab=</span><span class="st">&quot;&quot;</span>, <span class="dt">axes=</span><span class="ot">FALSE</span>)
-<span class="kw">rect</span>(<span class="kw">min</span>(x)<span class="op">-</span><span class="dv">5</span>, <span class="kw">min</span>(y)<span class="op">-</span><span class="dv">5</span>, <span class="kw">max</span>(x)<span class="op">+</span><span class="dv">5</span>, <span class="kw">max</span>(y)<span class="op">+</span><span class="dv">5</span>)
-<span class="kw">mtext</span>(<span class="st">&quot;image()&quot;</span>, <span class="dt">side=</span><span class="dv">3</span>, <span class="dt">line=</span><span class="op">-</span><span class="fl">1.5</span>)</code></pre></div>
-<p><img src="density_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
-<br>
-<hr>
-<p>
-<center>
-<strong>Algunas parcelas estándar</strong>
-</center>
-</p>
-<hr>
-<p><strong>Gráfico de dispersión:</strong></p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Scatterplot</span>
-x &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="fl">0.5</span>, <span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">8</span>, <span class="dv">12</span>, <span class="dv">16</span>)
-y1 &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="dv">1</span>, <span class="fl">1.3</span>, <span class="fl">1.9</span>, <span class="fl">3.4</span>, <span class="fl">3.9</span>, <span class="fl">4.8</span>)
-y2 &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="dv">4</span>, .<span class="dv">8</span>, .<span class="dv">5</span>, .<span class="dv">45</span>, .<span class="dv">4</span>, .<span class="dv">3</span>)
-<span class="kw">par</span>(<span class="dt">las=</span><span class="dv">1</span>, <span class="dt">mar=</span><span class="kw">c</span>(<span class="dv">4</span>, <span class="dv">4</span>, <span class="dv">2</span>, <span class="dv">4</span>))
-<span class="kw">plot.new</span>()
-<span class="kw">plot.window</span>(<span class="kw">range</span>(x), <span class="kw">c</span>(<span class="dv">0</span>, <span class="dv">6</span>))
-<span class="kw">lines</span>(x, y1)
-<span class="kw">lines</span>(x, y2)
-<span class="kw">points</span>(x, y1, <span class="dt">pch=</span><span class="dv">16</span>, <span class="dt">cex=</span><span class="dv">2</span>)
-<span class="kw">points</span>(x, y2, <span class="dt">pch=</span><span class="dv">21</span>, <span class="dt">bg=</span><span class="st">&quot;white&quot;</span>, <span class="dt">cex=</span><span class="dv">2</span>)
-<span class="kw">par</span>(<span class="dt">col=</span><span class="st">&quot;grey50&quot;</span>, <span class="dt">fg=</span><span class="st">&quot;grey50&quot;</span>, <span class="dt">col.axis=</span><span class="st">&quot;grey50&quot;</span>)
-<span class="kw">axis</span>(<span class="dv">1</span>, <span class="dt">at=</span><span class="kw">seq</span>(<span class="dv">0</span>, <span class="dv">16</span>, <span class="dv">4</span>))
-<span class="kw">axis</span>(<span class="dv">2</span>, <span class="dt">at=</span><span class="kw">seq</span>(<span class="dv">0</span>, <span class="dv">6</span>, <span class="dv">2</span>))
-<span class="kw">axis</span>(<span class="dv">4</span>, <span class="dt">at=</span><span class="kw">seq</span>(<span class="dv">0</span>, <span class="dv">6</span>, <span class="dv">2</span>))
-<span class="kw">box</span>(<span class="dt">bty=</span><span class="st">&quot;u&quot;</span>)
-<span class="kw">mtext</span>(<span class="st">&quot;Travel Time (s)&quot;</span>, <span class="dt">side=</span><span class="dv">1</span>, <span class="dt">line=</span><span class="dv">2</span>, <span class="dt">cex=</span><span class="fl">0.8</span>)
-<span class="kw">mtext</span>(<span class="st">&quot;Responses per Travel&quot;</span>, <span class="dt">side=</span><span class="dv">2</span>, <span class="dt">line=</span><span class="dv">2</span>, <span class="dt">las=</span><span class="dv">0</span>, <span class="dt">cex=</span><span class="fl">0.8</span>)
-<span class="kw">mtext</span>(<span class="st">&quot;Responses per Second&quot;</span>, <span class="dt">side=</span><span class="dv">4</span>, <span class="dt">line=</span><span class="dv">2</span>, <span class="dt">las=</span><span class="dv">0</span>, <span class="dt">cex=</span><span class="fl">0.8</span>)
-<span class="kw">text</span>(<span class="dv">4</span>, <span class="dv">5</span>, <span class="st">&quot;Bird 131&quot;</span>)</code></pre></div>
-<p><img src="density_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">par</span>(<span class="dt">mar=</span><span class="kw">c</span>(<span class="fl">5.1</span>, <span class="fl">4.1</span>, <span class="fl">4.1</span>, <span class="fl">2.1</span>), <span class="dt">col=</span><span class="st">&quot;black&quot;</span>, <span class="dt">fg=</span><span class="st">&quot;black&quot;</span>, <span class="dt">col.axis=</span><span class="st">&quot;black&quot;</span>)</code></pre></div>
-<p><strong>Histograma:</strong></p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Histogram</span>
 <span class="co"># Random data</span>
 Y &lt;-<span class="st"> </span><span class="kw">rnorm</span>(<span class="dv">50</span>)
@@ -335,36 +285,16 @@ dn &lt;-<span class="st"> </span><span class="kw">dnorm</span>(x)
 <span class="kw">hist</span>(Y, <span class="dt">breaks=</span><span class="kw">seq</span>(<span class="op">-</span><span class="fl">3.5</span>, <span class="fl">3.5</span>), <span class="dt">ylim=</span><span class="kw">c</span>(<span class="dv">0</span>, <span class="fl">0.5</span>), 
      <span class="dt">col=</span><span class="st">&quot;grey80&quot;</span>, <span class="dt">freq=</span><span class="ot">FALSE</span>)
 <span class="kw">lines</span>(x, <span class="kw">dnorm</span>(x), <span class="dt">lwd=</span><span class="dv">2</span>)</code></pre></div>
-<p><img src="density_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p><img src="density_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">par</span>(<span class="dt">mar=</span><span class="kw">c</span>(<span class="fl">5.1</span>, <span class="fl">4.1</span>, <span class="fl">4.1</span>, <span class="fl">2.1</span>))</code></pre></div>
-<p><strong>Barplot:</strong></p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Barplot</span>
-<span class="kw">par</span>(<span class="dt">mar=</span><span class="kw">c</span>(<span class="dv">2</span>, <span class="fl">3.1</span>, <span class="dv">2</span>, <span class="fl">2.1</span>))
-midpts &lt;-<span class="st"> </span><span class="kw">barplot</span>(VADeaths, <span class="dt">col=</span><span class="kw">grey</span>(<span class="fl">0.5</span> <span class="op">+</span><span class="st"> </span><span class="dv">1</span><span class="op">:</span><span class="dv">5</span><span class="op">/</span><span class="dv">12</span>), 
-                  <span class="dt">names=</span><span class="kw">rep</span>(<span class="st">&quot;&quot;</span>, <span class="dv">4</span>))
-<span class="kw">mtext</span>(<span class="kw">sub</span>(<span class="st">&quot; &quot;</span>, <span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>, <span class="kw">colnames</span>(VADeaths)),
-      <span class="dt">at=</span>midpts, <span class="dt">side=</span><span class="dv">1</span>, <span class="dt">line=</span><span class="fl">0.5</span>, <span class="dt">cex=</span><span class="fl">0.5</span>)
-<span class="kw">text</span>(<span class="kw">rep</span>(midpts, <span class="dt">each=</span><span class="dv">5</span>), <span class="kw">apply</span>(VADeaths, <span class="dv">2</span>, cumsum) <span class="op">-</span><span class="st"> </span>VADeaths<span class="op">/</span><span class="dv">2</span>,
-     VADeaths, <span class="dt">col=</span><span class="kw">rep</span>(<span class="kw">c</span>(<span class="st">&quot;white&quot;</span>, <span class="st">&quot;black&quot;</span>), <span class="dt">times=</span><span class="dv">2</span><span class="op">:</span><span class="dv">3</span>, <span class="dt">cex=</span><span class="fl">0.8</span>))</code></pre></div>
-<p><img src="density_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">par</span>(<span class="dt">mar=</span><span class="kw">c</span>(<span class="fl">5.1</span>, <span class="fl">4.1</span>, <span class="fl">4.1</span>, <span class="fl">2.1</span>))</code></pre></div>
-<p><strong>Cuadro de caja:</strong></p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Boxplot</span>
-<span class="kw">par</span>(<span class="dt">mar=</span><span class="kw">c</span>(<span class="dv">3</span>, <span class="fl">4.1</span>, <span class="dv">2</span>, <span class="dv">0</span>))
-     <span class="kw">boxplot</span>(len <span class="op">~</span><span class="st"> </span>dose, <span class="dt">data =</span> ToothGrowth,
-             <span class="dt">boxwex =</span> <span class="fl">0.25</span>, <span class="dt">at =</span> <span class="dv">1</span><span class="op">:</span><span class="dv">3</span> <span class="op">-</span><span class="st"> </span><span class="fl">0.2</span>,
-             <span class="dt">subset=</span> supp <span class="op">==</span><span class="st"> &quot;VC&quot;</span>, <span class="dt">col=</span><span class="st">&quot;grey90&quot;</span>,
-             <span class="dt">xlab=</span><span class="st">&quot;&quot;</span>,
-             <span class="dt">ylab=</span><span class="st">&quot;tooth length&quot;</span>, <span class="dt">ylim=</span><span class="kw">c</span>(<span class="dv">0</span>,<span class="dv">35</span>))
-     <span class="kw">mtext</span>(<span class="st">&quot;Vitamin C dose (mg)&quot;</span>, <span class="dt">side=</span><span class="dv">1</span>, <span class="dt">line=</span><span class="fl">2.5</span>, <span class="dt">cex=</span><span class="fl">0.8</span>)
-     <span class="kw">boxplot</span>(len <span class="op">~</span><span class="st"> </span>dose, <span class="dt">data =</span> ToothGrowth, <span class="dt">add =</span> <span class="ot">TRUE</span>,
-             <span class="dt">boxwex =</span> <span class="fl">0.25</span>, <span class="dt">at =</span> <span class="dv">1</span><span class="op">:</span><span class="dv">3</span> <span class="op">+</span><span class="st"> </span><span class="fl">0.2</span>,
-             <span class="dt">subset=</span> supp <span class="op">==</span><span class="st"> &quot;OJ&quot;</span>, <span class="dt">col=</span><span class="st">&quot;grey70&quot;</span>)
-     <span class="kw">legend</span>(<span class="fl">1.5</span>, <span class="dv">9</span>, <span class="kw">c</span>(<span class="st">&quot;Ascorbic acid&quot;</span>, <span class="st">&quot;Orange juice&quot;</span>), <span class="dt">bty=</span><span class="st">&quot;n&quot;</span>,
-            <span class="dt">fill =</span> <span class="kw">c</span>(<span class="st">&quot;grey90&quot;</span>, <span class="st">&quot;grey70&quot;</span>))</code></pre></div>
-<p><img src="density_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">par</span>(<span class="dt">mar=</span><span class="kw">c</span>(<span class="fl">5.1</span>, <span class="fl">4.1</span>, <span class="fl">4.1</span>, <span class="fl">2.1</span>))</code></pre></div>
-<p><strong>Diagrama circular:</strong></p>
+<br>
+<hr>
+<p>
+<center>
+<strong>Diagrama Circular</strong>
+</center>
+</p>
+<hr>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Piechart</span>
 <span class="co"># Example 4 from help(pie)</span>
 <span class="kw">par</span>(<span class="dt">mar=</span><span class="kw">c</span>(<span class="dv">0</span>, <span class="dv">2</span>, <span class="dv">1</span>, <span class="dv">2</span>), <span class="dt">xpd=</span><span class="ot">FALSE</span>, <span class="dt">cex=</span><span class="fl">0.5</span>)
@@ -372,8 +302,7 @@ midpts &lt;-<span class="st"> </span><span class="kw">barplot</span>(VADeaths, <
      <span class="kw">names</span>(pie.sales) &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;Blueberry&quot;</span>, <span class="st">&quot;Cherry&quot;</span>,
          <span class="st">&quot;Apple&quot;</span>, <span class="st">&quot;Boston Cream&quot;</span>, <span class="st">&quot;Other&quot;</span>, <span class="st">&quot;Vanilla&quot;</span>)
      <span class="kw">pie</span>(pie.sales, <span class="dt">col =</span> <span class="kw">gray</span>(<span class="kw">seq</span>(<span class="fl">0.4</span>,<span class="fl">1.0</span>,<span class="dt">length=</span><span class="dv">6</span>)))</code></pre></div>
-<p><img src="density_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
-<p>Los anteriores gráficos con sus respectivos códigos fueron tomados como ejemplos para exhibir lo potente, útil y eficiente que son R y Rstudio como lenguaje de programación orientados al cálculo estadístico y a la generación de gráficas.</p>
+<p><img src="density_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
 <br>
 <hr>
 <p>
