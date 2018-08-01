@@ -4,7 +4,7 @@ title: <p><center>**SOBRE MÍ**</center></p>
 
 Mi nombre es **Yuberth Anderson Saavedra Coneo**, soy oriundo del municipio de Caucasia y actualmente vivo en la ciudad de Medellín. Me siento orgulloso de ser egresado de la **Institución Educativa Liceo Caucasia.** En la actualidad, estoy estudiando un pregrado en Estadística en la Universidad Nacional de Colombia sede Medellín. Por otro lado, en el Liceo Caucasia pago las horas sociales correspondientes a mis deberes con la **Corporación para el Fomento de la Educación Superior de la Gobernación de Antioquia** y así, cumplir a cabalidad con el reglamento operativo de la beca **Mejores Bachilleres,** que obtuve al ingresar a la **Universidad Nacional de Colombia sede Medellín.**
 
-```{r fig.asp=0.70, echo=FALSE, fig.align='left'}
+```{r fig.asp=0.70, echo=FALSE, fig.align='center'}
 library(png)
 library(grid)
 img <- readPNG("Imagenes/bibliocasa.png")
@@ -12,8 +12,7 @@ grid.raster(img)
 ```
 
 
-
 <br>
 <hr>
-<p><center>Copyright &copy; 2018, webpage made by Yuberth Saavedra with Rmarkdown.</center></p>
+<p><center>Copyright &copy; 2018, webpage made with Rmarkdown by Yuberth Saavedra.</center></p>
 <hr>

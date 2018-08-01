@@ -5,27 +5,25 @@ title: <p><center></center></p>
 <br>
 <hr>
 <p><center>
-###*Esteticamente hablando; se requiere de la belleza intelectual para que las percepciones de la vida se conjuguen de forma empática con las reacciones corporales.*
+###*HOLA, BIENVENID@ A MI PÁGINA WEB.*
 <div align="right">
-<i>*By: Yuberth Saavedra*</i>
+<i></i>
 </div>
 </center></p>
 <hr>
 
 <div align="center">
-####Hola, es para mí un placer que visites mi página web.
+####
 </div>
 
-```{r fig.asp=0.60, echo=FALSE, fig.align='center'}
+```{r fig.asp=0.80, echo=FALSE, fig.align='center'}
 library(png)
 library(grid)
-img <- readPNG("Imagenes/vistatrasera.png")
+img <- readPNG("Imagenes/yuberth.png")
 grid.raster(img)
 ```
 
-
-
 <br>
 <hr>
-<p><center>Copyright &copy; 2018, webpage made by Yuberth Saavedra with Rmarkdown.</center></p>
+<p><center>Copyright &copy; 2018, webpage made with Rmarkdown by Yuberth Saavedra.</center></p>
 <hr>

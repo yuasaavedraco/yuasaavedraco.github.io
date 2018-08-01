@@ -1,7 +1,7 @@
 ---
 title: <p><center>**DENSIDADES**</center></p> 
 ---
-En esta sección, exhibo algunas densidades creadas en R y Rstudio con el objetivo de mostrar lo potente, útil y eficiente que son estos programas como lenguaje de programación orientados al cálculo estadístico y a la generación de gráficas.
+En esta pestaña, exhibo algunas densidades creadas en R y Rstudio con el objetivo de mostrar lo potente, útil y eficiente que son estos programas como lenguaje de programación orientados al cálculo estadístico y a la generación de gráficas.
 
 <br>
 <hr>
@@ -61,8 +61,7 @@ par(mar=c(0, 2, 1, 2), xpd=FALSE, cex=0.5)
 [Chapman & Hall / CRC, agosto de 2005.](https://www.stat.auckland.ac.nz/~paul/RGraphics/chapter1.html)
 
 
-
 <br>
 <hr>
-<p><center>Copyright &copy; 2018, webpage made by Yuberth Saavedra with Rmarkdown.</center></p>
+<p><center>Copyright &copy; 2018, webpage made with Rmarkdown by Yuberth Saavedra.</center></p>
 <hr>
