@@ -12,6 +12,9 @@ navbar:
     - text: "Trabajos"
       icon: fa-folder
       href: jobs.html
+    - text: "Densidades"
+      icon: fa-line-chart
+      href: density.html
   right:
     - icon: fa-facebook
       href: https://www.facebook.com/yuasavedraco
