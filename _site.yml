@@ -15,19 +15,7 @@ navbar:
     - text: "Densidades"
       icon: fa-line-chart
       href: density.html
-    - text: "#Ystats"
-      href: fa-menu.html
-      menu:
-        - text: "Material"
-          icon: fa-archive
-          href: material.html
-        - text: "Vídeos"
-          icon: fa-video-camera
-          href: videos.html
-        - text: "Enlaces Interesantes"
-          icon: fa-link
-          href: enlaces.html
-          
+  
   right:
     - icon: fa-facebook
       href: https://www.facebook.com/yuasavedraco
