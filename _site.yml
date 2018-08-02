@@ -6,17 +6,6 @@ navbar:
     - text: "Home"
       icon: fa-home
       href: index.html
-    - text: "#ystats"
-      menu:
-        - text: "Material"
-          icon: fa-archive
-          href: material.html
-        - text: "Videos"
-          icon: fa-video-camera
-          href: videos.html
-        - text: "Enlaces interesantes"
-          icon: fa-link
-          href: enlaces.html
     - text: "Sobre Mí"
       icon: fa-child
       href: about.html
@@ -26,6 +15,18 @@ navbar:
     - text: "Densidades"
       icon: fa-line-chart
       href: density.html
+    - text: "#Ystats"
+      href: fa-menu.html
+      menu:
+        - text: "Material"
+          icon: fa-archive
+          href: material.html
+        - text: "Vídeos"
+          icon: fa-video-camera
+          href: videos.html
+        - text: "Enlaces Interesantes"
+          icon: fa-link
+          href: enlaces.html
           
   right:
     - icon: fa-facebook
