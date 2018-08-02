@@ -6,7 +6,7 @@ navbar:
     - text: "Home"
       icon: fa-home
       href: index.html
-    - text: "YStats"
+    - text: "#YStats"
       menu:
         - text: "Material"
           icon: fa-archive
