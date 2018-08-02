@@ -15,6 +15,7 @@ navbar:
     - text: "Densidades"
       icon: fa-line-chart
       href: density.html
+    - text: "YStats"
       menu:
         - text: "Material"
           icon: fa-archive
