@@ -12,10 +12,6 @@ title: <p><center></center></p>
 </center></p>
 <hr>
 
-<div align="center">
-####
-</div>
-
 ```{r fig.asp=0.80, echo=FALSE, fig.align='center'}
 library(png)
 library(grid)

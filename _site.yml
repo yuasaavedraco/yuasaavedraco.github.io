@@ -11,7 +11,7 @@ navbar:
       href: about.html
     - text: "Pregrado"
       icon: fa-university
-      href: research.html
+      href: jobs.html
     - #text: "Fútsal"
       #icon: fa-ball
       #href: fa-ball.html
