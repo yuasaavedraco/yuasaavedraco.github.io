@@ -1,5 +1,5 @@
 ---
-title: <p><center>**TRABAJOS**</center></p>
+title: <p><center>**Trabajos**</center></p>
 ---
 A continuación, presento algunos de los trabajos que he realizado en las asignaturas cursadas hasta ahora en mi formación como estadístico en la Universidad Nacional de Colombia sede Medellín.
 
@@ -19,5 +19,5 @@ A continuación, presento algunos de los trabajos que he realizado en las asigna
 
 <br>
 <hr>
-<p><center>Copyright &copy; 2018, webpage made with Rmarkdown by Yuberth Saavedra.</center></p>
+<p><center>Copyright &copy; 2018, webpage made with Rmarkdown.</center></p>
 <hr>

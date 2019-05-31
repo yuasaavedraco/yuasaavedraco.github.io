@@ -5,7 +5,7 @@ title: <p><center></center></p>
 <br>
 <hr>
 <p><center>
-###*HOLA, BIENVENID@ A MI PÁGINA WEB.*
+###*Hola, bienvenidos a mi página web.*
 <div align="right">
 <i></i>
 </div>
@@ -19,11 +19,11 @@ title: <p><center></center></p>
 ```{r fig.asp=0.80, echo=FALSE, fig.align='center'}
 library(png)
 library(grid)
-img <- readPNG("Imagenes/yuberth.png")
+img <- readPNG("Imagenes/bibliocasa.png")
 grid.raster(img)
 ```
 
 <br>
 <hr>
-<p><center>Copyright &copy; 2018, webpage made with Rmarkdown by Yuberth Saavedra.</center></p>
+<p><center>Copyright &copy; 2018, webpage made with Rmarkdown.</center></p>
 <hr>
