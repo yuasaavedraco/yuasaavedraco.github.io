@@ -6,12 +6,15 @@ navbar:
     - text: "Home"
       icon: fa-home
       href: index.html
-    - text: "About"
+    - text: "Sobre Mí"
       icon: fa-child
       href: about.html
-    - text: "university"
-      icon: fa-university
-      href: university.html
+    - text: "Trabajos"
+      icon: fa-folder
+      href: jobs.html
+    - #text: "Densidades"
+      #icon: fa-line-chart
+      #href: density.html
   
   right:
     - icon: fa-facebook

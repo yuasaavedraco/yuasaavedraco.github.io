@@ -1,0 +1,25 @@
+---
+title: <p><center></center></p>
+---
+
+<br>
+<hr>
+<p><center>
+###*Hola, bienvenidos a mi página web.*
+<div align="right">
+<i></i>
+</div>
+</center></p>
+<hr>
+
+```{r fig.asp=0.80, echo=FALSE, fig.align='center'}
+library(png)
+library(grid)
+img <- readPNG("Imagenes/bibliocasa.png")
+grid.raster(img)
+```
+
+<br>
+<hr>
+<p><center>Copyright &copy; 2018, webpage made with Rmarkdown.</center></p>
+<hr>

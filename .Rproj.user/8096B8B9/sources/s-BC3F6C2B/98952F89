@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1559327656019.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "98952F89",
+    "lastKnownWriteTime" : 1559326942,
+    "last_content_update" : 1559326942,
+    "path" : "~/R/WebSite/yasc.github.io/Home/index.Rmd",
+    "project_path" : "Home/index.Rmd",
+    "properties" : {
+        "cursorPosition" : "2,3",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
