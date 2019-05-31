@@ -9,9 +9,9 @@ navbar:
     - text: "About"
       icon: fa-child
       href: about.html
-    - text: "Pregrado"
+    - text: "university"
       icon: fa-university
-      href: jobs.html
+      href: university.html
     - #text: "Fútsal"
       #icon: fa-ball
       #href: fa-ball.html
