@@ -9,9 +9,15 @@ navbar:
     - text: "About"
       icon: fa-child
       href: about.html
-    - text: "Trabajos"
-      icon: fa-folder
-      href: jobs.html
+    - text: "Pregrado"
+      icon: fa-university
+      href: research.html
+    - #text: "Fútsal"
+      #icon: fa-ball
+      #href: fa-ball.html
+    - #text: "Arbiantioquia"
+      #icon: fa-sport
+      #href: sport.html      
     - #text: "Densidades"
       #icon: fa-line-chart
       #href: density.html

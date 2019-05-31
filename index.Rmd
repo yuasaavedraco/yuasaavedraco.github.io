@@ -16,7 +16,7 @@ title: <p><center></center></p>
 ####
 </div>
 
-```{r fig.asp=0.80, echo=FALSE, fig.align='center'}
+```{r fig.asp=0.80, echo=FALSE, fig.align='center', include=T}
 library(png)
 library(grid)
 img <- readPNG("Imagenes/bibliocasa.png")

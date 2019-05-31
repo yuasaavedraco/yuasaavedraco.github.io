@@ -4,7 +4,7 @@ title: <p><center> **About** </center></p>
 
 Mi nombre es **Yuberth Saavedra**, soy oriundo del municipio de Caucasia, vivo en la ciudad de Medellín. Me siento orgulloso de ser egresado de la **Institución Educativa Liceo Caucasia.** En esta institución pago semestralmente unas horas sociales, correspondientes a mis deberes con la **Corporación para el Fomento de la Educación Superior,** así cumplo con el reglamento operativo de la beca **Mejores Bachilleres** que me otorgó la **Gobernación de Antioquia** al ingresar a la **Universidad Nacional de Colombia sede Medellín** en el año 2016.
 
-```{r fig.asp=0.70, echo=FALSE, fig.align='center', include=FALSE}
+```{r fig.asp=0.70, echo=FALSE, fig.align='center', include=TRUE}
 library(png)
 library(grid)
   img <- readPNG("Imagenes/BibliotecaUN.png")
