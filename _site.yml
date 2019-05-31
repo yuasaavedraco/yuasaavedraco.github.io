@@ -6,7 +6,7 @@ navbar:
     - text: "Home"
       icon: fa-home
       href: index.html
-    - text: "Sobre Mí"
+    - text: "About"
       icon: fa-child
       href: about.html
     - text: "Trabajos"
