@@ -12,6 +12,9 @@ navbar:
     - text: "university"
       icon: fa-university
       href: university.html
+    - text: "Density"
+      icon: fa-folder
+      href: dendity.html
   
   right:
     - icon: fa-github

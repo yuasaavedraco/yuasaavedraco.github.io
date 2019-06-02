@@ -3,7 +3,6 @@ title: <p><center>**Trabajos**</center></p>
 ---
 A continuación, presento algunos de los trabajos que he realizado en las asignaturas cursadas hasta ahora en mi formación como estadístico en la Universidad Nacional de Colombia sede Medellín.
 
-
 **Documentos en PDF alojados en Github:**
 
 [*Cantidad de personas atendidas en una cafeteria en un intervalo de dos minutos.*](https://github.com/yuasaavedraco/yuasaavedraco.github.io/blob/master/Documentos/CANTIDAD%20DE%20PERSONAS%20ATENDIDAS%20EN%20UN%20INTERVALO%20DE%20DOS%20MINUTOS.pdf)
