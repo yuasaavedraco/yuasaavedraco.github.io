@@ -9,12 +9,12 @@ navbar:
     - text: "About"
       icon: fa-child
       href: about.html
-    - text: "university"
+    - text: "University"
       icon: fa-university
-      href: university.html
+      href: University.html
     - text: "Density"
       icon: fa-folder
-      href: Density.html
+      href: density.html
   
   right:
     - icon: fa-github
