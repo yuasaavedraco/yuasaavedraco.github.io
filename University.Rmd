@@ -5,15 +5,10 @@ A continuación, presento algunos de los trabajos que he realizado en las asigna
 
 **Documentos en PDF alojados en Github:**
 
-[*Cantidad de personas atendidas en una cafeteria en un intervalo de dos minutos.*](https://github.com/yuasaavedraco/yuasaavedraco.github.io/blob/master/Documentos/CANTIDAD%20DE%20PERSONAS%20ATENDIDAS%20EN%20UN%20INTERVALO%20DE%20DOS%20MINUTOS.pdf)
+[*Cantidad de personas atendidas en una cafeteria en un intervalo de dos minutos.*](https://github.com/yuasaavedraco/yuasaavedraco.github.io/blob/master/Docs/Cantidad%20de%20personas%20atendidas%20en%20un%20intervalo%20de%20dos%20minutos.pdf)
 
-[*¿Cómo estimar la edad de una persona?*](https://github.com/yuasaavedraco/yuasaavedraco.github.io/blob/master/Documentos/C%C3%93MO%20ESTIMAR%20LA%20ESTATURA%20DE%20UN%20PERSONA.pptx.pdf)
+[*¿Cómo estimar la edad de un árbol?*](https://github.com/yuasaavedraco/yuasaavedraco.github.io/blob/master/Docs/C%C3%B3mo%20estimar%20la%20altura%20de%20una%20persona.pdf)
 
-[*Primer taller individual con R y Rstudio.*](https://github.com/yuasaavedraco/yuasaavedraco.github.io/blob/master/Documentos/PRIMER%20TALLER%20INDIVIDUAL%20CON%20R%20Y%20RSTUDIO.pdf)
-
-[*Trabajo Extra*](https://github.com/yuasaavedraco/yuasaavedraco.github.io/blob/master/Documentos/TRABAJO%20EXTRA.pdf)
-
-[*Corrección de una gráfica en R*](https://github.com/yuasaavedraco/yuasaavedraco.github.io/blob/master/Documentos/CORRECCI%C3%93N%20DE%20UNA%20GR%C3%81FICA%20EN%20R.pdf)
 
 
 <br>
