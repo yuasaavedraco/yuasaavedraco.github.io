@@ -14,7 +14,7 @@ navbar:
       href: university.html
     - text: "Density"
       icon: fa-folder
-      href: dendity.html
+      href: Density.html
   
   right:
     - icon: fa-github
