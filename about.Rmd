@@ -7,7 +7,7 @@ Mi nombre es **Yuberth Saavedra**, soy oriundo del municipio de Caucasia, vivo e
 ```{r fig.asp=0.70, echo=FALSE, fig.align='center'}
 library(png)
 library(grid)
-  img <- readPNG("Imagenes/BibliotecaUN.png")
+  img <- readPNG("Imagenes/bibliocasa.png")
 grid.raster(img)
 ```
 

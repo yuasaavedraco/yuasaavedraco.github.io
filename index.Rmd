@@ -12,11 +12,9 @@ title: <p><center></center></p>
 </center></p>
 <hr>
 
-```{r fig.asp=0.80, echo=FALSE, fig.align='center'}
-library(png)
-library(grid)
-img <- readPNG("Imagenes/bibliocasa.png")
-grid.raster(img)
+
+```{r, echo=FALSE, fig.align="center", out.width="570", out.height="300"}
+knitr::include_graphics("Imagenes/ensayo1.gif")
 ```
 
 <br>

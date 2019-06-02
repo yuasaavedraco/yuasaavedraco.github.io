@@ -1,6 +1,8 @@
 ---
 title: <p><center></center></p>
 ---
+
+
 A continuación, presento algunos de los trabajos que he realizado en las asignaturas cursadas hasta el momento en mi formación como estadístico en la Universidad Nacional de Colombia sede Medellín. Documentos alojados en mi cuenta de Github:
 
 + [*Pasos para hacer una regresión lineal simple en Python.*](https://github.com/yuasaavedraco/yuasaavedraco.github.io/blob/master/Docs/Regresi%C3%B3n%20Lineal%20Simple%20en%20Python.ipynb)
