@@ -13,7 +13,7 @@ Email: yuasaavedraco@unal.edu.co
 </div>
 
 <div class = "col-md-4">
-```{r fig.asp=0.35, echo=FALSE, fig.align='left'}
+```{r fig.asp=0.35, echo=FALSE, fig.align='left', out.width="500", out.height="500"}
 library(png)
 library(grid)
 img <- readPNG("Imagenes/LogoUnal.png")
@@ -22,24 +22,18 @@ grid.raster(img)
 </div>
 </div>
 
-<div class = "row">
+# Sports profile
 
-<div class = "col-md-5">
+- Árbitro de Fútbol Sala. [Corporación Arbiantioquia](http://arbiantioquia.org) 
 
-+ Árbitro de Fútbol Sala.
-  Categoria C.
-  [Corporación Arbiantioquia](http://arbiantioquia.org) 
+- Selección de Fútbol Sala UnalMed. [Fútsal UnalMed](https://www.instagram.com/futsalunalmed) 
 
-</div>
 
-<div class = "row">
 
-<div class = "col-md-5">
 
-+ Selección de Fútbol Sala UnalMed.
-  [Fútsal UnalMed](https://www.instagram.com/futsalunalmed) 
 
-</div>
+
+
 
 
 <br>
