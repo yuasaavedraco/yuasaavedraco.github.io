@@ -17,13 +17,26 @@ Email: yuasaavedraco@unal.edu.co
 </div>
 
 <div class = "col-md-4">
-```{r fig.asp=0.35, echo=FALSE, fig.align='left', out.width="1000", out.height="1200"}
+```{r fig.asp=0.35, echo=FALSE, fig.align='left'}
 library(png)
 library(grid)
 img <- readPNG("Imagenes/LogoUnal.png")
 grid.raster(img)
 ```
 
+```{r fig.asp=0.35, echo=FALSE, fig.align='left'}
+library(png)
+library(grid)
+img1 <- readPNG("Imagenes/Discurso.png")
+grid.raster(img1)
+```
+
+```{r fig.asp=0.35, echo=FALSE, fig.align='left'}
+library(png)
+library(grid)
+img2 <- readPNG("Imagenes/Navidad.png")
+grid.raster(img2)
+```
 </div>
 </div>
 
