@@ -28,7 +28,7 @@ img <- readPNG("Imagenes/LogoUnal.png")
 grid.raster(img)
 ```
 
-```{r fig.asp=0.35, echo=FALSE, fig.align='left', out.width="200", out.height="200"}
+```{r fig.asp=0.35, echo=FALSE, fig.align='center', out.width="200", out.height="200"}
 library(png)
 library(grid)
 img1 <- readPNG("Imagenes/cefes-logo.png")
