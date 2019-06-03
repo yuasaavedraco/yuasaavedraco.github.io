@@ -5,13 +5,13 @@ title: <h1>About me</h1>
 <div class = "row">
 
 <div class = "col-md-5">
-Origen: [Caucasia, Antioquia, Colombia](https://es.wikipedia.org/wiki/Caucasia)
+Origen: [Caucasia, Antioquia, Colombia.](https://es.wikipedia.org/wiki/Caucasia)
 
 Residencia: [Medellín, Antioquia, Colombia.](https://es.wikipedia.org/wiki/Medellín)
 
 Academia: [Universidad Nacional de Colombia sede Medellín.](http://medellin.unal.edu.co)
 
-Becario: [Mejores Bachilleres - Gobernación de Antioquia](https://www.corpoeducacionsuperior.org/programas-becas/mejores-bachilleres)
+Becario: [Mejores Bachilleres - Gobernación de Antioquia.](https://www.corpoeducacionsuperior.org/programas-becas/mejores-bachilleres)
 
 Email: yuasaavedraco@unal.edu.co
 </div>
@@ -24,14 +24,14 @@ img <- readPNG("Imagenes/LogoUnal.png")
 grid.raster(img)
 ```
 
-```{r fig.asp=0.35, echo=FALSE, fig.align='left'}
+```{r fig.asp=0.35, echo=FALSE, fig.align='center'}
 library(png)
 library(grid)
 img1 <- readPNG("Imagenes/Discurso.png")
 grid.raster(img1)
 ```
 
-```{r fig.asp=0.35, echo=FALSE, fig.align='left'}
+```{r fig.asp=0.35, echo=FALSE, fig.align='right'}
 library(png)
 library(grid)
 img2 <- readPNG("Imagenes/Navidad.png")
