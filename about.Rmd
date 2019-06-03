@@ -2,63 +2,43 @@
 title: <p><center> **About me** </center></p>
 ---
 
-## Academic profile
-
 <div class = "row">
 
 <div class = "col-md-5">
-+ Estudiante del pregrado en Estadística.    
+Estudiante del pregrado en Estadística.
 [Universidad Nacional de Colombia sede Medellín](http://medellin.unal.edu.co/)
 [Descripción del pregrado](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=16920&Itemid=129)
-**email:** yuasaavedraco@unal.edu.co  
+Email: yuasaavedraco@unal.edu.co
+
 </div>
 
 <div class = "col-md-4">
-```{r fig.asp=0.35, echo=FALSE, fig.align='left', out.width="400", out.height="400"}
+```{r fig.asp=0.35, echo=FALSE, fig.align='left'}
 library(png)
 library(grid)
-img <- readPNG("Imagenes/FacCiencias.png")
+img <- readPNG("Imagenes/LogoUnal.png")
 grid.raster(img)
 ```
 </div>
 </div>
 
-## Sports profile
+<div class = "row">
+
+<div class = "col-md-5">
+
++ Árbitro de Fútbol Sala.
+  Categoria C.
+  [Corporación Arbiantioquia](http://arbiantioquia.org) 
+
+</div>
 
 <div class = "row">
 
 <div class = "col-md-5">
-+ Árbitro de Fútbol Sala
-Categoria C
-[Corporación Arbiantioquia](http://arbiantioquia.org) 
-</div>
 
-<div class = "col-md-4">
-```{r fig.asp=0.35, echo=FALSE, fig.align='left', out.width="550", out.height="550"}
-library(png)
-library(grid)
-img <- readPNG("Imagenes/ASCUN.png")
-grid.raster(img)
-```
-</div>
-</div>
-
-
-<div class = "row">
-
-<div class = "col-md-5">
-+ Selección de Fútbol Sala UnalMed
++ Selección de Fútbol Sala UnalMed.
   [Fútsal UnalMed](https://www.instagram.com/futsalunalmed) 
-</div>
 
-<div class = "col-md-4">
-```{r fig.asp=0.35, echo=FALSE, fig.align='left', out.width="400", out.height="400"}
-library(png)
-library(grid)
-img <- readPNG("Imagenes/futsal.png")
-grid.raster(img)
-```
-</div>
 </div>
 
 
