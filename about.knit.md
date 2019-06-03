@@ -14,12 +14,7 @@ title: <p><center> **About me** </center></p>
 </div>
 
 <div class = "col-md-4">
-```{r fig.asp=0.35, echo=FALSE, fig.align='left', out.width="400", out.height="400"}
-library(png)
-library(grid)
-img <- readPNG("Imagenes/FacCiencias.png")
-grid.raster(img)
-```
+<img src="about_files/figure-html/unnamed-chunk-1-1.png" width="400" height="400" style="display: block; margin: auto auto auto 0;" />
 </div>
 </div>
 
@@ -34,12 +29,7 @@ grid.raster(img)
 </div>
 
 <div class = "col-md-4">
-```{r fig.asp=0.35, echo=FALSE, fig.align='left', out.width="400", out.height="400"}
-library(png)
-library(grid)
-img <- readPNG("Imagenes/ASCUN.png")
-grid.raster(img)
-```
+<img src="about_files/figure-html/unnamed-chunk-2-1.png" width="400" height="400" style="display: block; margin: auto auto auto 0;" />
 </div>
 </div>
 
@@ -52,12 +42,7 @@ grid.raster(img)
 </div>
 
 <div class = "col-md-4">
-```{r fig.asp=0.35, echo=FALSE, fig.align='left', out.width="300", out.height="300"}
-library(png)
-library(grid)
-img <- readPNG("Imagenes/Unal.png")
-grid.raster(img)
-```
+<img src="about_files/figure-html/unnamed-chunk-3-1.png" width="300" height="300" style="display: block; margin: auto auto auto 0;" />
 </div>
 </div>
 
