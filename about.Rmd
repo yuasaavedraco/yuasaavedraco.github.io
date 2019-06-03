@@ -28,18 +28,11 @@ img <- readPNG("Imagenes/LogoUnal.png")
 grid.raster(img)
 ```
 
-```{r fig.asp=0.35, echo=FALSE, fig.align='center', out.width="200", out.height="200"}
+```{r fig.asp=0.35, echo=FALSE, fig.align='left', out.width="200", out.height="200"}
 library(png)
 library(grid)
 img1 <- readPNG("Imagenes/cefes-logo.png")
 grid.raster(img1)
-```
-
-```{r fig.asp=0.35, echo=FALSE, fig.align='right', out.width="180", out.height="180"}
-library(png)
-library(grid)
-  img2 <- readPNG("Imagenes/becasmb.png")
-grid.raster(img2)
 ```
 </div>
 </div>
