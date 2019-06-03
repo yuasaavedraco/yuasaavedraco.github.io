@@ -31,22 +31,45 @@ grid.raster(img)
 ### Academic profile
 
 + [Estudiante del pregrado en Estadística - Universidad Nacional de Colombia sede Medellín](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=16920&Itemid=129), actualidad.
+
 + [Bachiller Académico - Institución Educativa Liceo Caucasia](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=16920&Itemid=129), 2015.
 
 
 ### Sports profile
 
 - [Árbitro de Fútbol Sala - Corporación Arbiantioquia](http://arbiantioquia.org)
-  + ASCUN nacional, Medellín 2018.
-  + Juegos deportivos regionales en Peque, Antioquia, 2018.
-  + Pretemporada departamental de árbitros - primera C, 2019.
-  + Juegos deportivos del magisterio en Jardín, Antioquia 2019.
+  
+    - ASCUN nacional, Medellín 2018.
+    - Juegos deportivos regionales en Peque, Antioquia, 2018.
+    - Pretemporada departamental de árbitros - primera C, 2019.
+    - Juegos deportivos del magisterio en Jardín, Antioquia 2019.
 
 - [Selección de Fútbol Sala UnalMed](https://www.instagram.com/futsalunalmed) 
-  + Copa Metropolitana de Fútsal.
-  + Juegos Universitarios INDER.
-  + ASCUN departamental.
-  + Copa Loyola de la Universidad Javeriana, Cali (2020).
+  
+    - Copa Metropolitana de Fútsal.
+    - Juegos Universitarios INDER.
+    - ASCUN departamental.
+    - Copa Loyola de la Universidad Javeriana, Cali (2020).
+
+### Academic experiences
+
+- [Profesor en Logros, ayudas pedagógicas.](https://www.logros.co/profesores)
+  
+    - Estadísticas.
+    - Probabilidad.
+    - Matemáticas básicas.
+    - Cálculo I, II y III.
+    - Geometría Vectorial y Analítica.
+
+- [Pagar horas sociales de la beca - Institución Educativa Liceo Caucasia.](https://www.facebook.com/Institución-Educativa-Liceo-Caucasia-168946399827135)
+  
+    - Tutorías en matemáticas básicas para estudiantes de bachillerato.
+    - Apoyo a los porfesores de la sala de matemáticas.
+    
+
+
+
+
 
 
 <br>
