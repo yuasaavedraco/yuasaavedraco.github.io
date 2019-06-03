@@ -1,15 +1,14 @@
 ---
-title: <p><center> **About me** </center></p>
+title: <h1>About me</h1>
 ---
 
 <div class = "row">
 
 <div class = "col-md-5">
-Estudiante del pregrado en Estadística.
-[Universidad Nacional de Colombia sede Medellín](http://medellin.unal.edu.co/)
-[Descripción del pregrado](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=16920&Itemid=129)
+Origen: [Caucasia, Antioquia, Colombia](https://es.wikipedia.org/wiki/Caucasia)
+Residencia: [Medellín, Antioquia, Colombia.](https://es.wikipedia.org/wiki/Medellín)
+Academia: [Universidad Nacional de Colombia sede Medellín.](http://medellin.unal.edu.co/)
 Email: yuasaavedraco@unal.edu.co
-
 </div>
 
 <div class = "col-md-4">
@@ -19,6 +18,7 @@ library(grid)
 img <- readPNG("Imagenes/LogoUnal.png")
 grid.raster(img)
 ```
+
 </div>
 </div>
 
