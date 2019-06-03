@@ -1,5 +1,5 @@
 ---
-title: <h1>About me</h1>
+title: <h1>**About me**</h1>
 ---
 
 <div class = "row">
@@ -7,48 +7,46 @@ title: <h1>About me</h1>
 <div class = "col-md-5">
 Origen: [Caucasia, Antioquia, Colombia.](https://es.wikipedia.org/wiki/Caucasia)
 
-
 Residencia: [Medellín, Antioquia, Colombia.](https://es.wikipedia.org/wiki/Medellín)
-
 
 Academia: [Universidad Nacional de Colombia sede Medellín.](http://medellin.unal.edu.co)
 
-
 Beca: [Mejores Bachilleres - Gobernación de Antioquia.](https://www.corpoeducacionsuperior.org/programas-becas/mejores-bachilleres)
-
 
 Email: yuasaavedraco@unal.edu.co
 </div>
 
 <div class = "col-md-4">
-```{r fig.asp=0.35, echo=FALSE, fig.align='left', out.width="270", out.height="270"}
+```{r fig.asp=0.35, echo=FALSE, fig.align='left'}
 library(png)
 library(grid)
-img <- readPNG("Imagenes/LogoUnal.png")
+img <- readPNG("Imagenes/escudos.png")
 grid.raster(img)
 ```
 
-```{r fig.asp=0.35, echo=FALSE, fig.align='center', out.width="200", out.height="200"}
-library(png)
-library(grid)
-img1 <- readPNG("Imagenes/cefes-logo.png")
-grid.raster(img1)
-```
 </div>
 </div>
 
 
-## Academic profile
+### Academic profile
 
-+ [Estudiante del pregrado en Estadística - Universidad Nacional de Colombia sede Medellín](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=16920&Itemid=129)
-+ [Bachiller Académico - Institución Educativa Liceo Caucasia](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=16920&Itemid=129)
++ [Estudiante del pregrado en Estadística - Universidad Nacional de Colombia sede Medellín](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=16920&Itemid=129), actualidad.
++ [Bachiller Académico - Institución Educativa Liceo Caucasia](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=16920&Itemid=129), 2015.
 
 
-## Sports profile
+### Sports profile
 
-- [Árbitro de Fútbol Sala - Corporación Arbiantioquia](http://arbiantioquia.org) 
+- [Árbitro de Fútbol Sala - Corporación Arbiantioquia](http://arbiantioquia.org)
+  + ASCUN nacional, Medellín 2018.
+  + Juegos deportivos regionales en Peque, Antioquia, 2018.
+  + Pretemporada departamental de árbitros - primera C, 2019.
+  + Juegos deportivos del magisterio en Jardín, Antioquia 2019.
+
 - [Selección de Fútbol Sala UnalMed](https://www.instagram.com/futsalunalmed) 
-
+  + Copa Metropolitana de Fútsal.
+  + Juegos Universitarios INDER.
+  + ASCUN departamental.
+  + Copa Loyola de la Universidad Javeriana, Cali (2020).
 
 
 <br>
