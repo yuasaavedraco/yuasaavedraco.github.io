@@ -57,8 +57,8 @@ grid.raster(img)
   
     - Estadística.
     - Probabilidad.
-    - Matemáticas básicas.
     - Cálculo I, II y III.
+    - Matemáticas básicas.
     - Geometría Vectorial y Analítica.
 
 - [Pagar horas sociales de la beca - Institución Educativa Liceo Caucasia.](https://www.facebook.com/Institución-Educativa-Liceo-Caucasia-168946399827135)
