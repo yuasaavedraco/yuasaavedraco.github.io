@@ -6,13 +6,18 @@ title: <h1>About me</h1>
 
 <div class = "col-md-5">
 Origen: [Caucasia, Antioquia, Colombia](https://es.wikipedia.org/wiki/Caucasia)
+
 Residencia: [Medellín, Antioquia, Colombia.](https://es.wikipedia.org/wiki/Medellín)
-Academia: [Universidad Nacional de Colombia sede Medellín.](http://medellin.unal.edu.co/)
+
+Academia: [Universidad Nacional de Colombia sede Medellín.](http://medellin.unal.edu.co)
+
+Becario: [Mejores Bachilleres - Gobernación de Antioquia](https://www.corpoeducacionsuperior.org/programas-becas/mejores-bachilleres)
+
 Email: yuasaavedraco@unal.edu.co
 </div>
 
 <div class = "col-md-4">
-```{r fig.asp=0.35, echo=FALSE, fig.align='left', out.width="500", out.height="500"}
+```{r fig.asp=0.35, echo=FALSE, fig.align='left', out.width="1000", out.height="1200"}
 library(png)
 library(grid)
 img <- readPNG("Imagenes/LogoUnal.png")
@@ -22,11 +27,17 @@ grid.raster(img)
 </div>
 </div>
 
-# Sports profile
 
-- Árbitro de Fútbol Sala. [Corporación Arbiantioquia](http://arbiantioquia.org) 
+## Academic profile
 
-- Selección de Fútbol Sala UnalMed. [Fútsal UnalMed](https://www.instagram.com/futsalunalmed) 
++ [Estudiante del pregrado en Estadística - Universidad Nacional de Colombia sede Medellín](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=16920&Itemid=129)
++ [Bachiller Académico - Institución Educativa Liceo Caucasia](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=16920&Itemid=129)
+
+
+## Sports profile
+
+- [Árbitro de Fútbol Sala - Corporación Arbiantioquia](http://arbiantioquia.org) 
+- [Selección de Fútbol Sala UnalMed](https://www.instagram.com/futsalunalmed) 
 
 
 
