@@ -13,7 +13,7 @@ title: <p><center></center></p>
 <hr>
 
 
-```{r, echo=FALSE, fig.align="left", out.width="100", out.height="100"}
+```{r fig.asp=0.70, echo=FALSE, fig.align='center', out.width="100", out.height="100"}
 knitr::include_graphics("Imagenes/ensayo1.gif")
 ```
 
