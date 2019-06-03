@@ -11,7 +11,7 @@ email: yuasaavedraco@unal.edu.co
 </div>
 
 <div class = "col-md-4">
-```{r fig.asp=0.35, echo=FALSE, fig.align='left', out.width="80", out.height="80"}
+```{r fig.asp=0.35, echo=FALSE, fig.align='left', out.width="150", out.height="150"}
 library(png)
 library(grid)
 img <- readPNG("Imagenes/bibliocasa.png")
