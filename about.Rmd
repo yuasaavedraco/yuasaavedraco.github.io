@@ -8,9 +8,9 @@ title: <p><center> **About me** </center></p>
 
 <div class = "col-md-5">
 + Estudiante del pregrado en Estadística.    
-  [Universidad Nacional de Colombia sede Medellín](http://medellin.unal.edu.co/)
-  [Descripción del pregrado](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=16920&Itemid=129)
-  email: yuasaavedraco@unal.edu.co  
+[Universidad Nacional de Colombia sede Medellín](http://medellin.unal.edu.co/)
+[Descripción del pregrado](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=16920&Itemid=129)
+**email:** yuasaavedraco@unal.edu.co  
 </div>
 
 <div class = "col-md-4">
@@ -29,12 +29,12 @@ grid.raster(img)
 
 <div class = "col-md-5">
 + Árbitro de Fútbol Sala
-  Categoria C
-  [Corporación Arbiantioquia](http://arbiantioquia.org) 
+Categoria C
+[Corporación Arbiantioquia](http://arbiantioquia.org) 
 </div>
 
 <div class = "col-md-4">
-```{r fig.asp=0.35, echo=FALSE, fig.align='left', out.width="400", out.height="400"}
+```{r fig.asp=0.35, echo=FALSE, fig.align='left', out.width="550", out.height="550"}
 library(png)
 library(grid)
 img <- readPNG("Imagenes/ASCUN.png")
@@ -52,10 +52,10 @@ grid.raster(img)
 </div>
 
 <div class = "col-md-4">
-```{r fig.asp=0.35, echo=FALSE, fig.align='left', out.width="300", out.height="300"}
+```{r fig.asp=0.35, echo=FALSE, fig.align='left', out.width="400", out.height="400"}
 library(png)
 library(grid)
-img <- readPNG("Imagenes/Unal.png")
+img <- readPNG("Imagenes/futsal.png")
 grid.raster(img)
 ```
 </div>
