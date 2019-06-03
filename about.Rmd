@@ -51,12 +51,6 @@ grid.raster(img1)
 
 
 
-
-
-
-
-
-
 <br>
 <hr>
 <p><center>Copyright &copy; 2018, webpage made with Rmarkdown.</center></p>
