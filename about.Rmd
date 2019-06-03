@@ -1,15 +1,25 @@
 ---
-title: <p><center> **About** </center></p>
+title: <h1> **About me** </h1>
 ---
 
-Mi nombre es **Yuberth Saavedra**, soy oriundo del municipio de Caucasia, vivo en la ciudad de Medellín. Me siento orgulloso de ser egresado de la **Institución Educativa Liceo Caucasia.** En esta institución pago semestralmente unas horas sociales, correspondientes a mis deberes con la **Corporación para el Fomento de la Educación Superior,** así cumplo con el reglamento operativo de la beca **Mejores Bachilleres** que me otorgó la **Gobernación de Antioquia** al ingresar a la **Universidad Nacional de Colombia sede Medellín** en el año 2016.
+<div class = "row">
 
-```{r fig.asp=0.70, echo=FALSE, fig.align='rigth'}
+<div class = "col-md-5">
+Estudiante del pregrado en Estadística.    
+[Universidad Nacional de Colombia sede Medellín](http://medellin.unal.edu.co/)  
+email: yuasaavedraco@unal.edu.co  
+</div>
+
+<div class = "col-md-4">
+```{r fig.asp=0.35, echo=FALSE, fig.align='left', out.width="80", out.height="80"}
 library(png)
 library(grid)
-  img <- readPNG("Imagenes/bibliocasa.png")
+img <- readPNG("Imagenes/bibliocasa.png")
 grid.raster(img)
 ```
+
+</div>
+</div>
 
 
 <br>
