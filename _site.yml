@@ -12,8 +12,8 @@ navbar:
     - text: "University"
       icon: fa-university
       href: University.html
-    - text: "Density"
-      icon: fa-folder
+    - text: "Semillero"
+      icon: fal fa-analytics
       href: density.html
   
   right:
