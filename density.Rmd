@@ -1,7 +1,7 @@
 ---
 title: <p><center>**Densidades**</center></p> 
 ---
-En esta pestaña, exhibo algunas densidades creadas en R y Rstudio con el objetivo de mostrar lo potente, útil y eficiente que son estos programas como lenguaje de programación orientados al cálculo estadístico y a la generación de gráficas.
+En esta pestaña, exhibo algunas densidades creadas en R y Rstudio con el objetivo de mostrar lo potente, útil y eficiente que son estos programas como lenguaje de programación orientados al cálculo estadístico y a la generación de gráficas. (Cambios)
 
 <br>
 <hr>
