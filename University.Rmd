@@ -6,7 +6,7 @@ A continuación, presento algunos de los trabajos, archivos e informes que he re
 
 + <a href="Docs/Redes_Neuronales_en_R.html">*Creación de una red neuronal con R.* </a>
 
-+ [*Pasos para hacer una regresión lineal simple en Python.*](https://github.com/yuasaavedraco/yuasaavedraco.github.io/blob/master/Docs/Regresi%C3%B3n%20Lineal%20Simple%20en%20Python.ipynb)
++ <a href="Docs/Regresión Lineal Simple en Python.ipynb">*Pasos para hacer una regresión lineal simple en Python.* </a>
 
 + [*Cantidad de personas atendidas en una cafeteria en un intervalo de dos minutos.*](https://github.com/yuasaavedraco/yuasaavedraco.github.io/blob/master/Docs/Cantidad%20de%20personas%20atendidas%20en%20un%20intervalo%20de%20dos%20minutos.pdf)
 
