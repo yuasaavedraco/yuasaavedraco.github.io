@@ -1,0 +1,228 @@
+---
+title: "Creación de una red neuronal con R"
+author: "Yuberth Anderson Saavedra Coneo"
+date: "31 de mayo de 2019"
+output:
+  html_document:
+    #df_print: paged
+    code_folding: show    
+    #toc: true
+    #number_sections: false
+    theme: flatly
+    highlight: kate
+    #toc_float:
+     # collapsed: false
+      #smooth_scroll: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introducción
+
+En el presente documento se explica el proceso para hacer redes neuronales con R. Dichas redes se aplican dentro de las siguientes categorías generales: 
+
++ Aproximación de funciones, o el análisis de regresión, incluyendo la predicción de series temporales, funciónes de aptitud y el modelado.
++ Clasificación, incluyendo el reconocimiento de patrones y la secuencia de reconocimiento, detección y de la toma de decisiones secuenciales.
++ Procesamiento de datos, incluyendo el filtrado, el agrupamiento, la separación ciega de las señales y compresión.
++ Robótica, incluyendo la dirección de manipuladores y prótesis.
++ Ingeniería de control, incluyendo control numérico por computadora.
+
+Los pasos a seguir para la creación de las redes neuronales son:
+
+## Cargar la base de datos
+A continuación el código para cargar los datos:
+
+```{r}
+file <- "https://raw.githubusercontent.com/fhernanb/datos/master/propelente"
+datos <- read.table(file=file, header=TRUE) 
+head(datos) # Muestra las 6 primeras filas
+```
+
+## Diagrama de dispersión
+Para crear un diagrama de dispersión que muestre la relación entre las variables usamos las siguientes instrucciones:
+
+```{r, warning=FALSE} 
+#install.packages("ggplot2", dependencies = TRUE)   # Se instala una sola vez
+library(ggplot2)                                   # Se carga cada session
+ggplot(datos, aes(x=Edad, y=Resistencia)) + geom_point()
+```
+
+## Paquetes
+Se usa la función neuralnet del paquete neuralnet para crear la red neuronal y el paquete ggplot2 para crear el gráfico de dispersión. Se instala y se cargan los paquetes, así:
+
+```{r, warning=FALSE}
+#install.packages("neuralnet", dependencies = TRUE) # Se instala una sola vez
+library(neuralnet)                                 # Se carga cada session
+```
+
+La función neuralnet tiene la siguiente estructura:
+
++ **neuralnet(formula, data, hidden = 1, threshold = 0.01, stepmax = 1e+05, rep = 1, startweights = NULL, learningrate.limit = NULL, learningrate.factor = list(minus = 0.5, plus = 1.2), learningrate = NULL, lifesign = "none", lifesign.step = 1000, algorithm = "rprop+", err.fct = "sse", act.fct = "logistic", linear.output = TRUE, exclude = NULL, constant.weights = NULL, likelihood = FALSE)**
+    
+Argumentos:
+    
++ ```formula:``` una descripción simbólica del modelo que se va a instalar.
++ ```data:``` un marco de datos que contiene las variables especificadas en la fórmula.
++ ```hidden:``` un vector de enteros que especifica el número de neuronas ocultas (vértices) en cada capa.
++ ```threshold:``` un valor numérico que especifica el umbral para los derivados parciales de la función de error como criterio de parada.
++ ```stepmax:``` los pasos máximos para el entrenamiento de la red neural. Alcanzar este máximo conduce a una interrupción del proceso de entrenamiento de la red neural.
++ ```rep:``` el número de repeticiones para el entrenamiento de la red neural.
++ ```startweights:``` un vector que contiene los valores iniciales de las ponderaciones. Se establece en NULL para la inicialización aleatoria.
++ ```learningrate.limit:``` un vector o una lista con el límite inferior y superior del ritmo de aprendizaje. Utilizado sólo para RPROP y GRPROP.
++ ```learningrate.factor:``` un vector o una lista que contenga los factores de multiplicación para la velocidad de aprendizaje superior e inferior. Utilizado sólo para RPROP y GRPROP.
++ ```learningrate:``` un valor numérico que especifica la velocidad de aprendizaje utilizada por la retropaginación tradicional. Se utiliza sólo para la retropropagación tradicional.
++ ```lifesign:``` una cadena que especifica cuánto imprimirá la función durante el cálculo de la red neuronal. ninguna", "mínima" o "completa".
++ ```lifesign.step:``` un número entero que especifica el tamaño del paso para imprimir el umbral mínimo en modo de signo de vida completo.
++ ```algorithm:``` una cadena que contiene el tipo de algoritmo para calcular la red neuronal. Los siguientes tipos son posibles: 'backprop', 'rprop+', 'rprop-', 'sag', o 'slr'. backprop" se refiere a la retropagación, "rprop+" y "rprop-" se refieren a la retropagación elástica con y sin retroceso del peso, mientras que "sag" y "slr" inducen el uso del algoritmo de convergencia global modificado (grprop). Vea Detalles para más información.
++ ```err.fct:``` una función diferenciable que se utiliza para el cálculo del error. Alternativamente, se pueden utilizar las cadenas 'sse' y 'ce', que significan la suma de los errores cuadrados y la cruzentropía.
++ ```act.fct:``` una función diferenciable que se utiliza para suavizar el resultado del producto cruzado del covariante o las neuronas y los pesos. Adicionalmente las cadenas, 'logístico' y 'tanh' son posibles para la función logística e hiperbólica tangencial.
++ ```linear.output:``` lógico. Si act.fct no debe aplicarse a la salida, las neuronas establecen la salida lineal como VERDADERA, de lo contrario como FALSA.
++ ```exclude:``` un vector o una matriz que especifique los pesos que se excluyen del cálculo. Si se indica como vector, deben conocerse las posiciones exactas de las pesas. Una matriz con n filas y 3 columnas excluirá n pesos, donde la primera columna representa la capa, la segunda la neurona de entrada y la tercera la neurona de salida del peso.
++ ```constant.weights:``` un vector que especifica los valores de los pesos que se excluyen del proceso de entrenamiento y se tratan como fijos.
++ ```likelihood:``` lógico. Si la función de error es igual a la función de verosimilitud negativa, se calcularán los criterios de información AIC y BIC. Además, el uso de confidence.interval es significativo.
+
+Para conocer en detalle la función se recomienda al lector escribir en la consola de R ``` help(neuralnet).``` 
+
+## Creación de la red neuronal
+Antes de crear la red es necesario escalar las variables para evitar el efecto de la escala de las variables. Existen varias formas de escalar pero se usará una transformación para pasar los valores de las variables al intervalo (0,1).
+
+Con el siguiente código se va convertir los datos originales a datos escalados y se almacenarán en el objeto scaled.
+
+```{r}
+maxs <- apply(datos, 2, max) # Máximo valor de las variables
+mins <- apply(datos, 2, min) # Mínimo valor de las variables
+scaled <- as.data.frame(scale(datos, center=mins, scale=maxs-mins))
+```
+
+A continuación, se comparan las primeras 6 filas de **datos** y de **scaled** para ver lo que sucedió.
+
+```{r}
+head(cbind(datos, scaled))
+```
+
+En la siguiente figura se muestra el diagrama de dispersión para las variables escaladas. Al comparar ambos gráficos de dispersión (con datos y con scaled) se observa el mismo patrón en la nube de puntos, la única diferencia es que ahora los valores de las variables (Y y X) están en (0,1).
+
+```{r, warning=FALSE, message=FALSE}
+#install.packages("gridExtra", dependencies = TRUE) # Se instala una sola vez
+require(gridExtra)                                 # Se carga cada session
+plot1 <- ggplot(datos, aes(x=Edad, y=Resistencia)) + geom_point()
+plot2 <- ggplot(scaled, aes(x=Edad, y=Resistencia)) + geom_point()
+grid.arrange(plot1, plot2, ncol=2)
+```
+
+Ahora bien, la primera red neuronal a considerar se llamará mod1 y tendrá una capa con un solo nodo. El código para crear la red es el siguiente.
+
+```{r}
+mod1 <- neuralnet(Resistencia ~ Edad, data=scaled, hidden=c(1), threshold=0.01)
+```
+
+Recuerde que: 
+
++ ```hidden:``` es un vector de enteros que especifica el número de neuronas ocultas (vértices) en cada capa.
++ ```threshold:``` un valor numérico que especifica el umbral para los derivados parciales de la función de error como criterio de parada.
+
+Además, se puede construir un dibujo con la red ajustada usando la función plot sobre el objeto mod1, véase:
+
+```{r}
+plot(mod1, rep="best")
+```
+
+El objeto mod1 tiene varios elementos en su interior, éstos se pueden ver usando el código siguiente:
+
+```{r}
+names(mod1)
+```
+
+El elemento act.fct es la función de activación (logística por defecto) y el elemento weights contiene los pesos mostrados en la anterior figura. Estos dos elementos serán útiles más adelante. A continuación el código para explorar lo que hay dentro de estos dos elementos.
+
+```{r}
+mod1$act.fct # Activation function
+```
+
+```{r}
+unlist(mod1$weights)  # Obtener en formas de vector los weigths=pesos
+```
+
+## Predicción
+En este ejemplo la base de datos tiene solo 20 observaciones y por esta razón el conjunto de entrenamiento y conjunto de prueba son el mismo.
+
+En el código mostrado a continuación se crea el conjunto de prueba test solo con la covariable Edad proveniente de la base scaled. La función compute permite predecir los valores Resistencia para la informacion disponible en test teniendo como referencia una red neuronal entrenada, en este caso vamos a usar mod1.
+
+```{r}
+test <- data.frame(Edad = scaled$Edad)
+myprediction <- compute(x=mod1, covariate=test)
+```
+
+El objeto myprediction tiene varios elementos y uno de ellos es $net.result que contiene las predicciones. A continuación vamos a explorar los 5 primeros valores.
+
+```{r}
+myprediction$net.result[1:5]
+```
+
+El elemento $net.result del objeto myprediction tiene la respuesta estimada pero en la forma escalada, por esta razón es necesario aplicar la transformación inversa para obtener el resultado en la escala original. A continuación el código necesario para retornar a la escala original.
+
+```{r}
+yhat_red <- myprediction$net.result * (max(datos$Resistencia)-min(datos$Resistencia))+min(datos$Resistencia)
+datos$yhat_red <- yhat_red
+yhat_red[1:5] # Para ver los primeros 5 valores estimados
+```
+
+Para comparar los resultados obtenidos con la red neuronal podemos dibujar los valores observados y contra los valores estimados de la variable respuesta. A continuación, se muestra el código para crear el gráfico de dispersión al cual se le agrega un línea recta a 45 grados como referencia; entre más cerca este un punto de la línea, significa que la respuesta estimada y son cercanos.
+
+```{r}
+ggplot(datos, aes(x=Resistencia, y=yhat_red)) + geom_point() +
+  geom_abline(intercept=0, slope=1, color="blue", linetype="dashed", size=1.5)
+```
+
+Del gráfico anterior podemos ver que las estimaciones y estimado son cercanas a los verdaderos y, adicionalmente el coeficiente de correlación lineal calculado es de 0.9469494 lo cual es un valor alto.
+
+## Comparación con un modelo lineal simple
+
+
+```{r}
+mod2 <- lm(Resistencia ~ Edad, data=datos)
+coef(mod2)
+```
+
+Los valores estimados para la resistencia con el modelo lineal simple se pueden obtener de la siguiente manera.
+
+```{r}
+yhat_mls <- fitted(mod2)
+yhat_mls[1:5] # Para ver los primeros 5 valores estimados
+```
+
+Para comparar la red neuronal con el modelo lineal simple vamos a usar el Error Cuadrático Medio, así:
+
+```{r}
+ecm_red <- mean((datos$Resistencia - yhat_red)^2)
+ecm_red
+```
+
+```{r}
+ecm_rls <- mean((datos$Resistencia - yhat_mls)^2)
+ecm_rls
+```
+
+## Red neuronal con dos capas
+
+Como ilustración vamos a construir una segunda red con dos capas, la primera con 2 nodos y la segunda con 3 nodos, a continuación el código.
+
+```{r}
+mod3 <- neuralnet(Resistencia ~ Edad, data=scaled, 
+                  hidden=c(2, 3), threshold=0.01)
+```
+
+Nuevamente podemos dibujar la red construída.
+
+```{r}
+plot(mod3, rep="best")
+```
+
+
+## Fuente
+
+[Hernández, F. *"Redes neuronales con neuralnet"*](https://blog-freddy.netlify.com/post/2019/05/28/redes-neuronales-con-neuralnet/). Consultado el 31 de mayo de 2019.
+
+[Wikipedia. *"Red neuronal artificial"*](https://es.wikipedia.org/wiki/Red_neuronal_artificial#Aplicaciones_de_la_vida_real). Consultado el 7 de junio de 2019.
