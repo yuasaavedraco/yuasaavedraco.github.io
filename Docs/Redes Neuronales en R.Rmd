@@ -214,7 +214,7 @@ mod3 <- neuralnet(Resistencia ~ Edad, data=scaled,
                   hidden=c(2, 3), threshold=0.01)
 ```
 
-Nuevamente podemos dibujar la red construída.
+Nuevamente, se puede dibujar la red construída.
 
 ```{r}
 plot(mod3, rep="best")

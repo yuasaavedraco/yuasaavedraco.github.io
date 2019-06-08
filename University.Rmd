@@ -4,7 +4,7 @@ title: <p><center></center></p>
 
 A continuación, presento algunos de los trabajos, archivos e informes que he realizado en mi formación como estadístico en la Universidad Nacional de Colombia sede Medellín. Documentos alojados en mi cuenta de Github:
 
-+ [*Creación de una red neuronal con R.*](https://github.com/yuasaavedraco/yuasaavedraco.github.io/blob/master/Docs/Redes_Neuronales_en_R.html)
++ [*Creación de una red neuronal con R.*](Docs/Redes_Neuronales_en_R.html)
 
 + [*Pasos para hacer una regresión lineal simple en Python.*](https://github.com/yuasaavedraco/yuasaavedraco.github.io/blob/master/Docs/Regresi%C3%B3n%20Lineal%20Simple%20en%20Python.ipynb)
 
