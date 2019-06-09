@@ -59,12 +59,12 @@ grid.raster(img)
     - Probabilidad.
     - Cálculo I, II y III.
     - Matemáticas básicas.
-    - Geometría Vectorial y Analítica.
+    - Geometría vectorial y analítica.
 
-- [Pagar horas sociales de la beca - Institución Educativa Liceo Caucasia.](https://www.facebook.com/Institución-Educativa-Liceo-Caucasia-168946399827135)
+- [Horas sociales de la beca - Institución Educativa Liceo Caucasia.](https://www.facebook.com/Institución-Educativa-Liceo-Caucasia-168946399827135)
   
     - Tutorías en matemáticas básicas para estudiantes de bachillerato.
-    - Apoyo a los porfesores de la sala de matemáticas.
+    - Apoyo a los profesores de la sala de matemáticas.
     
 
 
