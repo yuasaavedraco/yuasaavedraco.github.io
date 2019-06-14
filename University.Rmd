@@ -4,6 +4,8 @@ title: <p><center></center></p>
 
 A continuación, presento algunos de los trabajos e informes que he realizado en mi formación como estadístico en la Universidad Nacional de Colombia sede Medellín.
 
++ <a href="Docs/Normalidad_univariada.html">*Evaluación de normalidad univariada.* </a>
+
 + <a href="Docs/Redes_Neuronales_con_R.html">*Creación de una red neuronal con R.* </a>
 
 + <a href="Docs/Regresión_lineal_múltiple_con_R.html">*Regresión lineal múltiple con R.* </a>
