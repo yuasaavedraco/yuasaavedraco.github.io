@@ -5,7 +5,7 @@ title: <p><center></center></p>
 <br>
 <hr>
 <p><center>
-###*Hola, bienvenidos a mi página web.*
+### *Hola, bienvenidos a mi página web.*
 <div align="right">
 <i></i>
 </div>
