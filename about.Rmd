@@ -109,7 +109,7 @@ grid.raster(img)
 ```{r echo=FALSE, fig.align='center', out.width="600", out.height="600"}
 library(png)
 library(grid)
-img <- readPNG("Imagenes/futsal_unal_2020.png")
+img <- readPNG("Imagenes/futsal.png")
 grid.raster(img)
 ```
 
