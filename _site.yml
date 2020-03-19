@@ -27,4 +27,4 @@ navbar:
 output:
   html_document:
     theme: flatly
-    highlight: monochrome
+    highlight: espresso
