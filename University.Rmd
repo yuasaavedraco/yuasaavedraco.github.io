@@ -2,6 +2,9 @@
 title: <p><center></center></p>
 ---
 
+<div class = "row">
+
+<div class = "col-md-5">
 A continuación, presento algunos de los trabajos e informes que he realizado en mi formación como estadístico en la Universidad Nacional de Colombia sede Medellín.
 
 + <a href="Docs/Normalidad_univariada.html">*Evaluación de normalidad univariada.* </a>
@@ -18,14 +21,15 @@ A continuación, presento algunos de los trabajos e informes que he realizado en
 
 + [*Estimación estadística de la altura de un árbol*](https://github.com/yuasaavedraco/yuasaavedraco.github.io/blob/master/Docs/C%C3%B3mo%20estimar%20estad%C3%ADsticamente%20la%20altura%20de%20un%20%C3%A1rbol.pdf)
 
+</div>
+<div class = "col-md-4">
 
-```{r fig.asp=0.35, echo=FALSE, fig.align='left', out.width="1000", out.height="1000"}
-library(png)
-library(grid)
-img <- readPNG("Imagenes/FacCiencias.png")
-grid.raster(img)
+```{r echo=FALSE, fig.align='right', out.width=250, out.height=300}
+knitr::include_graphics("Imagenes/BibliotecaUN.png")
 ```
 
+</div>
+</div>
 
 <br>
 <hr>
