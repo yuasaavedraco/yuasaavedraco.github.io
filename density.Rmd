@@ -64,5 +64,5 @@ par(mar=c(0, 2, 1, 2), xpd=FALSE, cex=0.5)
 
 <br>
 <hr>
-<p><center>Copyright &copy; 2018, webpage made with Rmarkdown.</center></p>
+<p><center>Copyright &copy; 2020, webpage made with Rmarkdown.</center></p>
 <hr>
