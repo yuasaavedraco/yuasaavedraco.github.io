@@ -15,7 +15,7 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -24,79 +24,6 @@
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css" data-origin="pandoc">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
-}
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(title);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {  }
-@media screen {
-a.sourceLine::before { text-decoration: underline; }
-}
-code span.al { font-weight: bold; } /* Alert */
-code span.an { font-style: italic; } /* Annotation */
-code span.cf { font-weight: bold; } /* ControlFlow */
-code span.co { font-style: italic; } /* Comment */
-code span.cv { font-style: italic; } /* CommentVar */
-code span.do { font-style: italic; } /* Documentation */
-code span.dt { text-decoration: underline; } /* DataType */
-code span.er { font-weight: bold; } /* Error */
-code span.in { font-style: italic; } /* Information */
-code span.kw { font-weight: bold; } /* Keyword */
-code span.pp { font-weight: bold; } /* Preprocessor */
-code span.wa { font-style: italic; } /* Warning */
-
-</style>
-<script>
-// apply pandoc div.sourceCode style to pre.sourceCode instead
-(function() {
-  var sheets = document.styleSheets;
-  for (var i = 0; i < sheets.length; i++) {
-    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
-    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
-    for (var j = 0; j < rules.length; j++) {
-      var rule = rules[j];
-      // check if there is a div.sourceCode rule
-      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
-      var style = rule.style.cssText;
-      // check if color or background-color is set
-      if (rule.style.color === '' && rule.style.backgroundColor === '') continue;
-      // replace div.sourceCode by a pre.sourceCode rule
-      sheets[i].deleteRule(j);
-      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
-    }
-  }
-})();
-</script>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 
 
 <style type="text/css">
@@ -160,33 +87,33 @@ summary {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 60px;
+  padding-top: 51px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h2 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h3 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h4 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h5 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h6 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .dropdown-submenu {
   position: relative;
@@ -388,77 +315,20 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore"><p>
 <center>
-<strong>Densidades</strong>
+<strong>Pestaña en mantenimiento…</strong>
 </center>
 </p></h1>
 
 </div>
 
 
-<p>En esta pestaña, exhibo algunas densidades creadas en R y Rstudio con el objetivo de mostrar lo potente, útil y eficiente que son estos programas como lenguaje de programación orientados al cálculo estadístico y a la generación de gráficas.</p>
+<p>Posiblemente se estén realizando cambios, eliminando o incluyendo información.</p>
+<p><img src="Imagenes/mantenimiento.png" width="400" height="300" style="display: block; margin: auto;" /></p>
 <br>
 <hr>
 <p>
 <center>
-<strong>Diagrama de Dispersión</strong>
-</center>
-</p>
-<hr>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">plot</span>(pressure)</a>
-<a class="sourceLine" id="cb1-2" title="2"><span class="kw">text</span>(<span class="dv">150</span>, <span class="dv">600</span>, </a>
-<a class="sourceLine" id="cb1-3" title="3">     <span class="st">&quot;Pressure (mm Hg)</span><span class="ch">\n</span><span class="st">versus</span><span class="ch">\n</span><span class="st">Temperature (Celsius)&quot;</span>)</a></code></pre></div>
-<p><img src="density_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
-<br>
-<hr>
-<p>
-<center>
-<strong>Histograma</strong>
-</center>
-</p>
-<hr>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" title="1"><span class="co"># Histogram</span></a>
-<a class="sourceLine" id="cb2-2" title="2"><span class="co"># Random data</span></a>
-<a class="sourceLine" id="cb2-3" title="3">Y &lt;-<span class="st"> </span><span class="kw">rnorm</span>(<span class="dv">50</span>)</a>
-<a class="sourceLine" id="cb2-4" title="4"><span class="co"># Make sure no Y exceed [-3.5, 3.5]</span></a>
-<a class="sourceLine" id="cb2-5" title="5">Y[Y <span class="op">&lt;</span><span class="st"> </span><span class="fl">-3.5</span> <span class="op">|</span><span class="st"> </span>Y <span class="op">&gt;</span><span class="st"> </span><span class="fl">3.5</span>] &lt;-<span class="st"> </span><span class="ot">NA</span></a>
-<a class="sourceLine" id="cb2-6" title="6">x &lt;-<span class="st"> </span><span class="kw">seq</span>(<span class="op">-</span><span class="fl">3.5</span>, <span class="fl">3.5</span>, <span class="fl">.1</span>)</a>
-<a class="sourceLine" id="cb2-7" title="7">dn &lt;-<span class="st"> </span><span class="kw">dnorm</span>(x)</a>
-<a class="sourceLine" id="cb2-8" title="8"><span class="kw">par</span>(<span class="dt">mar=</span><span class="kw">c</span>(<span class="fl">4.5</span>, <span class="fl">4.1</span>, <span class="fl">3.1</span>, <span class="dv">0</span>))</a>
-<a class="sourceLine" id="cb2-9" title="9"><span class="kw">hist</span>(Y, <span class="dt">breaks=</span><span class="kw">seq</span>(<span class="op">-</span><span class="fl">3.5</span>, <span class="fl">3.5</span>), <span class="dt">ylim=</span><span class="kw">c</span>(<span class="dv">0</span>, <span class="fl">0.5</span>), </a>
-<a class="sourceLine" id="cb2-10" title="10">     <span class="dt">col=</span><span class="st">&quot;grey80&quot;</span>, <span class="dt">freq=</span><span class="ot">FALSE</span>)</a>
-<a class="sourceLine" id="cb2-11" title="11"><span class="kw">lines</span>(x, <span class="kw">dnorm</span>(x), <span class="dt">lwd=</span><span class="dv">2</span>)</a></code></pre></div>
-<p><img src="density_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" title="1"><span class="kw">par</span>(<span class="dt">mar=</span><span class="kw">c</span>(<span class="fl">5.1</span>, <span class="fl">4.1</span>, <span class="fl">4.1</span>, <span class="fl">2.1</span>))</a></code></pre></div>
-<br>
-<hr>
-<p>
-<center>
-<strong>Diagrama Circular</strong>
-</center>
-</p>
-<hr>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" title="1"><span class="co"># Piechart</span></a>
-<a class="sourceLine" id="cb4-2" title="2"><span class="co"># Example 4 from help(pie)</span></a>
-<a class="sourceLine" id="cb4-3" title="3"><span class="kw">par</span>(<span class="dt">mar=</span><span class="kw">c</span>(<span class="dv">0</span>, <span class="dv">2</span>, <span class="dv">1</span>, <span class="dv">2</span>), <span class="dt">xpd=</span><span class="ot">FALSE</span>, <span class="dt">cex=</span><span class="fl">0.5</span>)</a>
-<a class="sourceLine" id="cb4-4" title="4">     pie.sales &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="fl">0.12</span>, <span class="fl">0.3</span>, <span class="fl">0.26</span>, <span class="fl">0.16</span>, <span class="fl">0.04</span>, <span class="fl">0.12</span>)</a>
-<a class="sourceLine" id="cb4-5" title="5">     <span class="kw">names</span>(pie.sales) &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;Blueberry&quot;</span>, <span class="st">&quot;Cherry&quot;</span>,</a>
-<a class="sourceLine" id="cb4-6" title="6">         <span class="st">&quot;Apple&quot;</span>, <span class="st">&quot;Boston Cream&quot;</span>, <span class="st">&quot;Other&quot;</span>, <span class="st">&quot;Vanilla&quot;</span>)</a>
-<a class="sourceLine" id="cb4-7" title="7">     <span class="kw">pie</span>(pie.sales, <span class="dt">col =</span> <span class="kw">gray</span>(<span class="kw">seq</span>(<span class="fl">0.4</span>,<span class="fl">1.0</span>,<span class="dt">length=</span><span class="dv">6</span>)))</a></code></pre></div>
-<p><img src="density_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
-<br>
-<hr>
-<p>
-<center>
-<strong>Fuente</strong>
-</center>
-</p>
-<hr>
-<p><a href="https://www.stat.auckland.ac.nz/~paul/RGraphics/chapter1.html">Chapman &amp; Hall / CRC, agosto de 2005.</a></p>
-<br>
-<hr>
-<p>
-<center>
-Copyright © 2018, webpage made with Rmarkdown.
+Copyright © 2020, webpage made with Rmarkdown.
 </center>
 </p>
 <hr>
