@@ -13,7 +13,7 @@ navbar:
       icon: fa-university
       href: University.html
     - text: "Density"
-      icon: <i class="fal fa-project-diagram"></i>
+      icon: fa-bar-chart
       href: density.html
   
   right:
