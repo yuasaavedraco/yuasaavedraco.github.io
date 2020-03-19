@@ -26,5 +26,5 @@ navbar:
     
 output:
   html_document:
-    theme: default
-    highlight: espresso
+    theme: darkly
+    highlight: pygments
