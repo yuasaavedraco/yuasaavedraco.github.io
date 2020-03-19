@@ -5,15 +5,15 @@ title: <h1>**Sobre mí**</h1>
 <div class = "row">
 
 <div class = "col-md-5">
-Origen: [Caucasia, Antioquia, Colombia.](https://es.wikipedia.org/wiki/Caucasia)
+$\bf Origen:$ [Caucasia, Antioquia, Colombia.](https://es.wikipedia.org/wiki/Caucasia)
 
-Residencia: [Medellín, Antioquia, Colombia.](https://es.wikipedia.org/wiki/Medellín)
+$\bf Residencia:$ [Medellín, Antioquia, Colombia.](https://es.wikipedia.org/wiki/Medellín)
 
-Academia: [Universidad Nacional de Colombia sede Medellín.](http://medellin.unal.edu.co)
+$\bf Academia:$ [Universidad Nacional de Colombia sede Medellín.](http://medellin.unal.edu.co)
 
-Beca: [Mejores Bachilleres - Gobernación de Antioquia.](https://www.corpoeducacionsuperior.org/programas-becas/mejores-bachilleres)
+$\bf Beca:$ [Mejores Bachilleres - Gobernación de Antioquia.](https://www.corpoeducacionsuperior.org/programas-becas/mejores-bachilleres)
 
-Correos: yuberth98@gmail.com o yuasaavedraco@unal.edu.co
+$\bf Correos:$ yuberth98@gmail.com o yuasaavedraco@unal.edu.co
 
 </div>
 
@@ -30,24 +30,25 @@ grid.raster(img)
 </div>
 
 
-### Perfil académico
+### $\bf \text{Perfil académico}$ {.tabset .tabset-fade .tabset-pills}
+
+#### $\bf Formación$
 
 + [Estudiante del pregrado en Estadística - Universidad Nacional de Colombia sede Medellín](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=16920&Itemid=129), actualidad.
 
 + [Bachiller Académico - Institución Educativa Liceo Caucasia](https://www.facebook.com/Institución-Educativa-Liceo-Caucasia-168946399827135), 2015.
 
-
-### Experiencias académicas
+#### $\bf Experiencias$
 
 - [Profesor en Logros, ayudas pedagógicas.](https://www.logros.co), 2019.
 
 - [Horas sociales de la beca - Institución Educativa Liceo Caucasia.](https://www.facebook.com/Institución-Educativa-Liceo-Caucasia-168946399827135), desde 2017 hasta la actualidad.
 
 
-### Perfil deportivo {.tabset .tabset-fade .tabset-pills}
+### $\bf \text{Perfil deportivo}$ {.tabset .tabset-fade .tabset-pills}
 
 
-#### Como árbitro
+#### $\bf \text{Como árbitro}$
 
 - Soy Árbitro de la disciplina de Fútbol Sala y me encuentro inscrito en la [Corporación Arbiantioquia](http://arbiantioquia.org). Mi categoría es primera C, y poseo la escarapela de la [Federación Colombiana de Fútbol](https://fcf.com.co/). Los eventos deportivos en los que he participado son:
 
@@ -55,9 +56,10 @@ grid.raster(img)
     - Juegos deportivos regionales en Peque, Antioquia, 2018.
     - Pretemporada departamental de árbitros, primera C, 2019.
     - Juegos deportivos del magisterio en Jardín, Antioquia, 2019.
-    - 40º Juegos Supérate Intercolegiados del Norte y Bajo Cauca en Donmatías, Antioquia, 2019. 
+    - 40º Juegos Supérate Intercolegiados del Norte y Bajo Cauca en Donmatías, Antioquia, 2019.
+    - 42º Juegos Departamentales "Indeportes Antioquia 50 años" – Final Departamental, Apartado, Antioquia, 2019.
 
-#### Como deportista
+#### $\bf \text{Como deportista}$
 
 - Desde mi ingreso a la UnalMed he hecho parte de la [Selección de Fútbol Sala](https://www.instagram.com/futsalunalmed) de la Universidad Nacional de Colombia, sede Medellín. Los torneos en los que hemos competido son:
 
@@ -65,6 +67,10 @@ grid.raster(img)
     - Copa Metropolitana de Fútbol Sala.
     - Juegos Universitarios INDER.
     - [Torneo ASCUN departamental, nodo Antioquia.](https://nodoantioquia20201.ascundeportes.org/torneo/esquema/1/torneo/83532)
+     \newline \newline
+
+
+- Estuve con la Selección Medellín, que se presentó en el zonal departamental del área metropolitana del Valle de Aburrá, en el año 2019.
 
 
 <br>

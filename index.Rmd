@@ -13,8 +13,8 @@ title: <p><center></center></p>
 <hr>
 
 
-```{r fig.asp=0.70, echo=FALSE, fig.align='center', out.width="200", out.height="200"}
-knitr::include_graphics("Imagenes/ensayo1.gif")
+```{r fig.asp=0.70, echo=FALSE, fig.align='center', out.width="350", out.height="350"}
+knitr::include_graphics("Imagenes/coloquio.jpg")
 ```
 
 <br>
