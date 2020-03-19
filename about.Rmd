@@ -118,5 +118,5 @@ grid.raster(img)
 
 <br>
 <hr>
-<p><center>Copyright &copy; 2020, webpage made with Rmarkdown.</center></p>
+<strong><p><center>Copyright &copy; 2020, webpage made with Rmarkdown.</center></p><strong>
 <hr>

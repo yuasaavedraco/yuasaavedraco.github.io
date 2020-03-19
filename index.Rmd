@@ -12,13 +12,11 @@ title: <p><center></center></p>
 </center></p>
 <hr>
 
-
-
 ```{r fig.asp=0.70, echo=FALSE, fig.align='center', out.width="350", out.height="350"}
 knitr::include_graphics("Imagenes/coloquio.jpg")
 ```
 
 <br>
 <hr>
-<p><center>Copyright &copy; 2020, webpage made with Rmarkdown.</center></p>
+<strong><p><center>Copyright &copy; 2020, webpage made with Rmarkdown.</center></p><strong>
 <hr>
