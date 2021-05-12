@@ -12,10 +12,7 @@ navbar:
     - text: "University"
       icon: fa-university
       href: University.html
-    - text: "Density"
-      icon: fa-bar-chart
-      href: density.html
-  
+
   right:
     - icon: fa-github
       href: https://github.com/yuasaavedraco
