@@ -1,0 +1,27 @@
+name: "Yuberth Anderson Saavedra Coneo"
+output_dir: "."
+navbar:
+  title: "Yuberth Anderson Saavedra Coneo"
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "About"
+      icon: fa-child
+      href: about.html
+    - text: "University"
+      icon: fa-university
+      href: University.html
+
+  right:
+    - icon: fa-github
+      href: https://github.com/yuasaavedraco
+    - icon: fa-facebook
+      href: https://www.facebook.com/yuasavedraco
+    - icon: fa-instagram
+      href: https://www.instagram.com/yuberth98
+    
+output:
+  html_document:
+    theme: yeti
+    highlight: pygments

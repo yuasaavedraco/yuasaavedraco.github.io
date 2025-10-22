@@ -1,0 +1,122 @@
+---
+title: <h1>**Sobre mí**</h1>
+---
+
+<div class = "row">
+
+<div class = "col-md-5">
+$\bf Origen:$ [Caucasia, Antioquia, Colombia.](https://es.wikipedia.org/wiki/Caucasia)
+
+$\bf Residencia:$ [Medellín, Antioquia, Colombia.](https://es.wikipedia.org/wiki/Medellín)
+
+$\bf Academia:$ [Universidad Nacional de Colombia sede Medellín.](http://medellin.unal.edu.co)
+
+$\bf Beca:$ [Mejores Bachilleres - Gobernación de Antioquia.](https://www.corpoeducacionsuperior.org/programas-becas/mejores-bachilleres)
+
+$\bf Correos:$ yuberth98@gmail.com o yuasaavedraco@unal.edu.co
+
+</div>
+
+<div class = "col-md-4">
+
+```{r echo=FALSE, fig.align='right', out.width="400", out.height="200"}
+library(png)
+library(grid)
+img <- readPNG("Imagenes/LogoUnal.png")
+grid.raster(img)
+```
+
+</div>
+</div>
+
+
+### $\bf \text{Perfil académico}$ {.tabset .tabset-fade .tabset-pills}
+
+#### $\bf Formación$
+
++ [Estudiante del pregrado en Estadística - Universidad Nacional de Colombia sede Medellín](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=16920&Itemid=129), actualidad.
+
++ [Bachiller Académico - Institución Educativa Liceo Caucasia](https://www.facebook.com/Institución-Educativa-Liceo-Caucasia-168946399827135), 2015.
+
+
+##### $\bf \text{Cursos cortos}$
+
++ Introducción al análisis de datos utilizando R, Facultad de Ciencias Agrarias de la Universidad Nacional de Colombia sede Medellín, 2018.
+
++ Reglas de Juego en Fútbol Sala, ARBIANTIOQUIA, 2018, Medellín.
+
++ Énfasis. Cooperativismo con actividad financiera. Confecoop Antioquia, Medellín, 2017.
+
++ Curso básico de cooperativismo. Confecoop Antioquia, Medellín, 2017.
+
++ Semillero de Matemáticas Lógicas Seccional Bajo Cauca, Universidad de Antioquia, Medellín, 2015.
+
+#### $\bf Experiencias$
+
+- Participación en el [XII Coloquio de Estadística: Métodos estadísticos en la generación de conocimientos,](https://ciencias.medellin.unal.edu.co/eventos/coloquioestadistica/) con el póster titulado “Modelos alternativos para predecir la tasa de natalidad en función de los factores ambientales y socioeconómicos de un país”, Universidad Nacional de
+Colombia sede Medellín, 2019.
+
+```{r fig.asp=0.70, echo=FALSE, fig.align='center'}
+knitr::include_graphics("Imagenes/coloquio_grupo.jpg")
+```
+
++ Participación de las actividades académicas del [RDAY MEDELLÍN 2019](https://rdaymedellin.github.io/) con la comunicación oral titulada “Modelos alternativos para predecir la tasa de natalidad en función de los factores ambientales y socioeconómicos de un país”, Escuela de Estadística de la Universidad Nacional de Colombia sede Medellín, 2019.
+
+```{r fig.asp=0.70, echo=FALSE, fig.align='center'}
+knitr::include_graphics("Imagenes/rday.jpeg")
+```
+
++ [Profesor en Logros, ayudas pedagógicas](https://www.logros.co), 2019.
+
++ [Horas sociales de la beca - Institución Educativa Liceo Caucasia](https://www.facebook.com/Institución-Educativa-Liceo-Caucasia-168946399827135), desde 2017 hasta la actualidad.
+
+
+
+### $\bf \text{Perfil deportivo}$ {.tabset .tabset-fade .tabset-pills}
+
+
+#### $\bf \text{Como árbitro}$
+
+- Soy Árbitro de la disciplina de Fútbol Sala y me encuentro inscrito en la [Corporación Arbiantioquia](http://arbiantioquia.org). Mi categoría es primera C, y poseo la escarapela de la [Federación Colombiana de Fútbol](https://fcf.com.co/). Los eventos deportivos en los que he participado son:
+
+    - ASCUN nacional, Medellín 2018.
+    - Juegos deportivos regionales en Peque, Antioquia, 2018.
+    - Pretemporada departamental de árbitros, primera C, 2019.
+    - Juegos deportivos del magisterio en Jardín, Antioquia, 2019.
+    - 40º Juegos Supérate Intercolegiados del Norte y Bajo Cauca en Donmatías, Antioquia, 2019.
+    - 42º Juegos Departamentales "Indeportes Antioquia 50 años" – Final Departamental, Apartado, Antioquia, 2019.
+
+```{r echo=FALSE, fig.align='center', out.width="350", out.height="300"}
+library(png)
+library(grid)
+img <- readPNG("Imagenes/arbitrando.png")
+grid.raster(img)
+```
+
+#### $\bf \text{Como deportista}$
+
+- Desde mi ingreso a la UnalMed he hecho parte de la [Selección de Fútbol Sala](https://www.instagram.com/futsalunalmed) de la Universidad Nacional de Colombia, sede Medellín. Los torneos en los que hemos competido son:
+
+    - [Liga Antioqueña de Fútbol, torneo Fútbol Sala FIFA Sala.](https://laf.com.co/servicios/categoria/torneos-futbol-sala-fifa)
+    - Copa Metropolitana de Fútbol Sala.
+    - Juegos Universitarios INDER.
+    - [Torneo ASCUN departamental, nodo Antioquia.](https://nodoantioquia20201.ascundeportes.org/torneo/esquema/1/torneo/83532)
+    
+\vspace{5mm}
+
+- Estuve con la Selección Medellín en el zonal departamental del área metropolitana del Valle de Aburrá, 2019.
+
+```{r echo=FALSE, fig.align='center', out.width="600", out.height="600"}
+library(png)
+library(grid)
+img <- readPNG("Imagenes/futsal.png")
+grid.raster(img)
+```
+
+
+
+
+<br>
+<hr>
+<strong><p><center>Copyright &copy; 2021, webpage made with Rmarkdown.</center></p><strong>
+<hr>
