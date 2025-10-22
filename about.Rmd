@@ -36,7 +36,7 @@ grid.raster(img)
 
 + [Especialista en Analítica y Big Data - Institución Universitaria Digital de Antioquia](https://www.iudigital.edu.co/index.php/nuestra-oferta/posgrados/especializaciones/especializacion-en-analitica-y-big-data), 15/Feb/2024.
 
-+ [Estudiante del pregrado en Estadística - Universidad Nacional de Colombia sede Medellín](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=16920&Itemid=129), 11/07/2022
++ [Estudiante del pregrado en Estadística - Universidad Nacional de Colombia sede Medellín](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=16920&Itemid=129), 11/Jun/2022.
 
 + [Bachiller Académico - Institución Educativa Liceo Caucasia](https://www.facebook.com/Institución-Educativa-Liceo-Caucasia-168946399827135), 27/Nov/2015.
 
