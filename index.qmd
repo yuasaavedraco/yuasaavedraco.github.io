@@ -1,0 +1,61 @@
+---
+title: "Yuberth A. Saavedra"
+format: html
+---
+
+::: {.hero-banner}
+# Yuberth A. Saavedra
+
+## Estadístico | Analítica y Big Data | Ciencia de Datos | BI | Docencia
+
+Transformo datos en información útil para tomar mejores decisiones. Mi trabajo combina estadística, analítica de negocios, visualización, automatización y modelos predictivos, con una fuerte vocación por la docencia y el aprendizaje continuo.
+
+Actualmente enfoco mi desarrollo profesional en ciencia de datos, inteligencia de negocios, economía aplicada y formación académica. Me interesa construir soluciones que conecten el análisis técnico con problemas reales de las organizaciones y las personas.
+
+[Ver proyectos](projects.qmd){.btn .btn-primary}
+[Sobre mí](about.qmd){.btn .btn-secondary}
+:::
+
+---
+
+## Áreas de trabajo
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+### Ciencia de datos
+Modelos predictivos, análisis estadístico, aprendizaje automático y soluciones basadas en datos.
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+### Business Intelligence
+Dashboards, visualización, Power BI, Tableau, indicadores y análisis para la toma de decisiones.
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+### Automatización
+Procesos reproducibles con R, Python y SQL para optimizar tiempos y reducir tareas manuales.
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+### Docencia
+Formación en analítica, inteligencia de negocios, programación, estadística aplicada e IA.
+:::
+
+:::
+
+---
+
+## Proyectos destacados
+
+Próximamente encontrarás aquí una selección de proyectos aplicados en ciencia de datos, visualización, automatización, análisis de negocio y docencia.
+
+[Explorar proyectos](projects.qmd){.btn .btn-primary}
+
+---
+
+## Más allá de los datos
+
+Mi formación también ha estado marcada por el fútbol, como jugador y árbitro. Esa experiencia ha fortalecido mi disciplina, liderazgo, criterio y capacidad para tomar decisiones bajo presión.
+
+En mi vida familiar encuentro una motivación profunda para seguir creciendo, formándome y construyendo una carrera con propósito. Para mí, el desarrollo profesional no está separado de la vida personal: ambos se conectan en la responsabilidad, la constancia y el deseo de aportar valor.

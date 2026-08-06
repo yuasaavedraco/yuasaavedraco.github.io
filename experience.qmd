@@ -1,0 +1,8 @@
+---
+title: "Experiencia y formación"
+format: html
+---
+
+# Experiencia y formación
+
+Aquí organizaré mi formación académica, herramientas, experiencia profesional, certificaciones e intereses actuales.

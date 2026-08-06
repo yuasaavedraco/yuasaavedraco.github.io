@@ -1,0 +1,12 @@
+---
+title: "Contacto"
+format: html
+---
+
+# Contacto
+
+Puedes contactarme para temas relacionados con ciencia de datos, inteligencia de negocios, docencia, proyectos analíticos y oportunidades profesionales.
+
+- GitHub: [yuasaavedraco](https://github.com/yuasaavedraco)
+- LinkedIn: pendiente por actualizar
+- Correo: pendiente por definir

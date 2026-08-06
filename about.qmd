@@ -1,0 +1,10 @@
+---
+title: "Sobre mí"
+format: html
+---
+
+# Sobre mí
+
+Soy estadístico y especialista en Analítica y Big Data. Mi experiencia combina análisis estadístico, inteligencia de negocios, automatización, visualización de datos y docencia.
+
+Esta sección será ampliada con mi perfil profesional, académico y personal.

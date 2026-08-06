@@ -1,0 +1,77 @@
+/* Estilo general */
+
+body {
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+/* Banner principal */
+
+.hero-banner {
+  padding: 4rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #f4f7fb 0%, #e9eef7 100%);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.hero-banner h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.hero-banner h2 {
+  font-size: 1.35rem;
+  font-weight: 500;
+  color: #375a7f;
+  margin-bottom: 1.5rem;
+}
+
+.hero-banner p {
+  max-width: 900px;
+}
+
+/* Botones */
+
+.btn {
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 999px;
+  padding: 0.65rem 1.2rem;
+  font-weight: 600;
+}
+
+/* Tarjetas de áreas */
+
+.grid > div {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 1.4rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e6e9ef;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.grid > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.12);
+}
+
+.grid h3 {
+  color: #1f4e79;
+  font-weight: 700;
+}
+
+/* Secciones */
+
+h2 {
+  margin-top: 2.5rem;
+  font-weight: 750;
+  color: #1f2937;
+}
+
+a {
+  text-decoration: none;
+}

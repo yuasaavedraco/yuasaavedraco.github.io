@@ -1,0 +1,8 @@
+---
+title: "Proyectos"
+format: html
+---
+
+# Proyectos
+
+Aquí presentaré proyectos aplicados en ciencia de datos, inteligencia de negocios, automatización, análisis estadístico, visualización y docencia.

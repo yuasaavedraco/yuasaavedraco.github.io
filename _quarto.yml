@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+
+website:
+  title: "Yuberth A. Saavedra"
+  site-url: "https://yuasaavedraco.github.io"
+  navbar:
+    background: primary
+    left:
+      - text: "Inicio"
+        href: index.qmd
+      - text: "Sobre mí"
+        href: about.qmd
+      - text: "Proyectos"
+        href: projects.qmd
+      - text: "Docencia"
+        href: teaching.qmd
+      - text: "Experiencia"
+        href: experience.qmd
+      - text: "Contacto"
+        href: contact.qmd
+    right:
+      - icon: github
+        href: https://github.com/yuasaavedraco
+      - icon: linkedin
+        href: "#"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    smooth-scroll: true

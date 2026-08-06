@@ -1,0 +1,8 @@
+---
+title: "Docencia"
+format: html
+---
+
+# Docencia
+
+Esta sección reunirá mi experiencia como docente, los temas que enseño, mi metodología y los proyectos formativos que he acompañado.
