@@ -8,3 +8,6 @@
 Imagenes/*
 !Imagenes/web/
 !Imagenes/web/**
+
+_site/
+docs/
