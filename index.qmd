@@ -1,61 +1,216 @@
 ---
 title: "Yuberth A. Saavedra"
-format: html
+page-layout: full
+body-classes: home-page
 ---
 
-::: {.hero-banner}
-# Yuberth A. Saavedra
+::: {.home-wrapper}
 
-## Estadístico | Analítica y Big Data | Ciencia de Datos | BI | Docencia
+::: {.hero-modern}
 
-Transformo datos en información útil para tomar mejores decisiones. Mi trabajo combina estadística, analítica de negocios, visualización, automatización y modelos predictivos, con una fuerte vocación por la docencia y el aprendizaje continuo.
+::: {.hero-copy}
 
-Actualmente enfoco mi desarrollo profesional en ciencia de datos, inteligencia de negocios, economía aplicada y formación académica. Me interesa construir soluciones que conecten el análisis técnico con problemas reales de las organizaciones y las personas.
+<div class="hero-tag">
+ESTADÍSTICA · CIENCIA DE DATOS · ANALÍTICA · IA · ECONOMÍA
+</div>
 
-[Ver proyectos](projects.qmd){.btn .btn-primary}
-[Sobre mí](about.qmd){.btn .btn-secondary}
+<div class="hero-name">Yuberth A. Saavedra</div>
+
+<div class="hero-motto">
+De lo finito de los datos a lo infinito de las preguntas.
+</div>
+
+Estadístico y especialista en Analítica y Big Data, con experiencia en **ciencia de datos, inteligencia de negocio, modelación predictiva y automatización**.
+
+<div class="hero-epigraph">
+“The infinite! No other question has ever moved so profoundly the spirit of man.”
+<span>— David Hilbert</span>
+</div>
+
+<div class="hero-actions">
+<a href="projects.html" class="btn btn-primary">Explorar proyectos</a>
+<a href="about.html" class="btn btn-outline-secondary">Conocer mi perfil</a>
+</div>
+
+<div class="hero-keywords">
+<span>Python</span>
+<span>R</span>
+<span>SQL</span>
+<span>Power BI</span>
+<span>Machine Learning</span>
+<span>Econometría</span>
+</div>
+
 :::
 
----
+::: {.hero-visual}
 
-## Áreas de trabajo
+<div class="photo-slider">
 
-::: {.grid}
+<div class="photo-slide active">
+<img src="Imagenes/web/Perfil_II.jpeg" alt="Perfil profesional">
+<div class="photo-caption">
+<strong>Analítica y liderazgo</strong>
+<span>Datos para apoyar mejores decisiones</span>
+</div>
+</div>
 
-::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
-### Ciencia de datos
-Modelos predictivos, análisis estadístico, aprendizaje automático y soluciones basadas en datos.
+<div class="photo-slide">
+<img src="Imagenes/web/CDO_Latam.jpeg" alt="Congreso CDO LATAM">
+<div class="photo-caption">
+<strong>Aprendizaje continuo</strong>
+<span>Datos, IA e innovación</span>
+</div>
+</div>
+
+<div class="photo-slide">
+<img src="Imagenes/web/Investigacion.jpg" alt="Divulgación académica">
+<div class="photo-caption">
+<strong>Investigación y divulgación</strong>
+<span>Estadística aplicada y conocimiento</span>
+</div>
+</div>
+
+<div class="slider-dots">
+<button class="dot active" aria-label="Foto 1"></button>
+<button class="dot" aria-label="Foto 2"></button>
+<button class="dot" aria-label="Foto 3"></button>
+</div>
+
+</div>
+
 :::
 
-::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
-### Business Intelligence
-Dashboards, visualización, Power BI, Tableau, indicadores y análisis para la toma de decisiones.
 :::
 
-::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
-### Automatización
-Procesos reproducibles con R, Python y SQL para optimizar tiempos y reducir tareas manuales.
+## Lo que hago
+
+::: {.area-grid}
+
+::: {.feature-card}
+### Ciencia de Datos
+Modelos predictivos, clasificación, segmentación y series de tiempo aplicados a problemas reales.
 :::
 
-::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
+::: {.feature-card}
+### Analítica & BI
+Indicadores, tableros y visualización para monitorear resultados y apoyar decisiones.
+:::
+
+::: {.feature-card}
+### Automatización & IA
+Procesos analíticos reproducibles y automatizados con R, Python, SQL e inteligencia artificial.
+:::
+
+::: {.feature-card}
+### Estadística & Economía
+Modelación estadística, pronóstico, econometría e inferencia para comprender relaciones y escenarios.
+:::
+
+:::
+
+## Impacto
+
+::: {.metric-grid}
+
+::: {.metric-card}
+### +12 %
+**Precisión de pronósticos**
+
+Mejora lograda mediante nuevas metodologías de estimación y seguimiento.
+:::
+
+::: {.metric-card}
+### ~$350 M
+**Precisión en proyección de recaudo**
+
+Reducción aproximada de la desviación promedio de las proyecciones.
+:::
+
+::: {.metric-card}
+### 77 %
+**Desempeño predictivo**
+
+Resultado alcanzado en modelos de clasificación para priorización de clientes.
+:::
+
+:::
+
+## Explora mi trabajo
+
+::: {.explore-grid}
+
+::: {.explore-card}
+### Proyectos
+Modelación, pronóstico, analítica y automatización aplicados a problemas reales.
+
+[Explorar proyectos →](projects.html)
+:::
+
+::: {.explore-card}
+### Experiencia
+De la investigación institucional al liderazgo de procesos analíticos.
+
+[Ver trayectoria →](experience.html)
+:::
+
+::: {.explore-card}
 ### Docencia
-Formación en analítica, inteligencia de negocios, programación, estadística aplicada e IA.
+Formación aplicada en Business Intelligence, SQL, Power BI y Tableau, con énfasis en consultas, vistas, procedimientos almacenados y dashboards.
+
+[Ver docencia →](teaching.html)
+:::
+
+::: {.explore-card}
+### Sobre mí
+Formación, investigación, intereses y evolución de mi perfil profesional.
+
+[Conocer más →](about.html)
 :::
 
 :::
 
----
+:::
 
-## Proyectos destacados
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const slides = document.querySelectorAll(".photo-slide");
+  const dots = document.querySelectorAll(".slider-dots .dot");
 
-Próximamente encontrarás aquí una selección de proyectos aplicados en ciencia de datos, visualización, automatización, análisis de negocio y docencia.
+  if (!slides.length) return;
 
-[Explorar proyectos](projects.qmd){.btn .btn-primary}
+  let current = 0;
+  let timer;
 
----
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.classList.toggle("active", i === index);
+    });
 
-## Más allá de los datos
+    dots.forEach((dot, i) => {
+      dot.classList.toggle("active", i === index);
+    });
 
-Mi formación también ha estado marcada por el fútbol, como jugador y árbitro. Esa experiencia ha fortalecido mi disciplina, liderazgo, criterio y capacidad para tomar decisiones bajo presión.
+    current = index;
+  }
 
-En mi vida familiar encuentro una motivación profunda para seguir creciendo, formándome y construyendo una carrera con propósito. Para mí, el desarrollo profesional no está separado de la vida personal: ambos se conectan en la responsabilidad, la constancia y el deseo de aportar valor.
+  function nextSlide() {
+    showSlide((current + 1) % slides.length);
+  }
+
+  function startSlider() {
+    timer = setInterval(nextSlide, 5000);
+  }
+
+  dots.forEach((dot, index) => {
+    dot.addEventListener("click", function () {
+      clearInterval(timer);
+      showSlide(index);
+      startSlider();
+    });
+  });
+
+  showSlide(0);
+  startSlider();
+});
+</script>
